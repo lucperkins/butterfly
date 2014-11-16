@@ -1,0 +1,10 @@
+[0m[[0minfo[0m] [0mCompiling 5 protobuf files to /Users/lucasperkins/scala/butterfly/target/scala-2.10/src_managed/main/compiled_protobuf[0m
+[0m[[0mdebug[0m] [0mprotoc options:[0m
+[0m[[0mdebug[0m] [0m	--java_out=/Users/lucasperkins/scala/butterfly/target/scala-2.10/src_managed/main/compiled_protobuf[0m
+[0m[[0minfo[0m] [0mCompiling schema /Users/lucasperkins/scala/butterfly/src/main/protobuf/riak.proto[0m
+[0m[[0minfo[0m] [0mCompiling schema /Users/lucasperkins/scala/butterfly/src/main/protobuf/riak_search.proto[0m
+[0m[[0minfo[0m] [0mCompiling schema /Users/lucasperkins/scala/butterfly/src/main/protobuf/riak_yokozuna.proto[0m
+[0m[[0minfo[0m] [0mCompiling schema /Users/lucasperkins/scala/butterfly/src/main/protobuf/riak_kv.proto[0m
+[0m[[0minfo[0m] [0mCompiling schema /Users/lucasperkins/scala/butterfly/src/main/protobuf/riak_dt.proto[0m
+[0m[[0minfo[0m] [0mCompiling protobuf[0m
+[0m[[0minfo[0m] [0mProtoc target directory: /Users/lucasperkins/scala/butterfly/target/scala-2.10/src_managed/main/compiled_protobuf[0m
