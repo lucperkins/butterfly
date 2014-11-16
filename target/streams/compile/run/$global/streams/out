@@ -2,10 +2,20 @@
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
 [0m[[0mdebug[0m] [0m	/Users/lucasperkins/scala/butterfly/target/scala-2.10/classes[0m
-[0m[[0mdebug[0m] [0m	/Users/lucasperkins/.sbt/boot/scala-2.10.4/lib/scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	/Users/lucasperkins/.ivy2/cache/com.google.protobuf/protobuf-java/bundles/protobuf-java-2.5.0.jar[0m
-[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
-[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0m	/Users/lucasperkins/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.7.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/lucasperkins/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.4.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/lucasperkins/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/lucasperkins/.ivy2/cache/com.propensive/rapture-io_2.10/jars/rapture-io_2.10-0.9.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/lucasperkins/.sbt/boot/scala-2.10.4/lib/scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/lucasperkins/.ivy2/cache/com.propensive/rapture-core_2.10/jars/rapture-core_2.10-0.9.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/lucasperkins/.ivy2/cache/scala_2.10/sbt_0.13/org.xerial.sbt/sbt-sonatype/jars/sbt-sonatype-0.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/lucasperkins/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.2.6.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/lucasperkins/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.2.5.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/lucasperkins/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/lucasperkins/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.6.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/lucasperkins/.ivy2/cache/com.propensive/rapture-uri_2.10/jars/rapture-uri_2.10-0.9.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/lucasperkins/.ivy2/cache/com.propensive/rapture-mime_2.10/jars/rapture-mime_2.10-0.9.0.jar[0m
 [0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
 [0m[[0mdebug[0m] [0mSandboxed run complete..[0m
 [0m[[0mdebug[0m] [0mExited with code 0[0m

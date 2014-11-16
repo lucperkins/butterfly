@@ -4,4 +4,4 @@ project/target/
 project/project/
 target/resolution-cache/
 target/scala-2.10/
-target/streams/
+target/streams

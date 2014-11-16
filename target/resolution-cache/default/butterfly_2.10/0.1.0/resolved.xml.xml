@@ -4,7 +4,7 @@
 		module="butterfly_2.10"
 		revision="0.1.0"
 		status="integration"
-		publication="20141115171437"
+		publication="20141116120728"
 	>
 		<description>
 		butterfly
@@ -36,6 +36,7 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.4" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="com.google.protobuf" name="protobuf-java" rev="2.5.0" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.akka" name="akka" rev="2.2.0-RC2" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.3.7" conf="compile->default(compile)"/>
+		<dependency org="com.propensive" name="rapture-io_2.10" rev="0.9.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
