@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d0a23b7[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7595c8f3[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
@@ -1054,7 +1054,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2030ms :: artifacts dl 24ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1306ms :: artifacts dl 30ms[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.10;0.1.0 compile produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.10;0.1.0 runtime produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.10;0.1.0 test produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.10-test.xml[0m
@@ -1069,5 +1069,5 @@
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.10;0.1.0 pom produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.10;0.1.0 scala-tool produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.10-scala-tool.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.10;0.1.0 protobuf produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.10-protobuf.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2030ms resolve - 24ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (1306ms resolve - 30ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

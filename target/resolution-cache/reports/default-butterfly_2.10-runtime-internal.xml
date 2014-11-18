@@ -7,7 +7,7 @@
 		revision="0.1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, protobuf"
-		date="20141117233952"/>
+		date="20141118010503"/>
 	<dependencies>
 		<module organisation="nl.gideondk" name="sentinel_2.10">
 			<revision name="0.7.5.1" status="release" pubdate="20141117225954" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">

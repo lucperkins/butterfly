@@ -2,27 +2,27 @@
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/Users/lucasperkins/scala/butterfly/src/main/scala/butterfly/RiakClient.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/Users/lucasperkins/scala/butterfly/src/main/scala/butterfly/RiakConnection.scala)[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/lucasperkins/scala/butterfly/src/main/scala/butterfly/RiakClient.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/lucasperkins/scala/butterfly/src/main/scala/butterfly/RiakConnection.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/lucasperkins/scala/butterfly/src/main/scala/butterfly/RiakClient.scala)[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/lucasperkins/scala/butterfly/src/main/scala/butterfly/RiakConnection.scala)[0m
 [0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/lucasperkins/scala/butterfly/target/scala-2.10/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 705d843a, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 7822d460, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/classes:/Users/lucasperkins/.sbt/boot/scala-2.10.4/lib/scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/Users/lucasperkins/scala/butterfly/target/scala-2.10/classes:/Users/lucasperkins/.ivy2/cache/com.google.protobuf/protobuf-java/bundles/protobuf-java-2.5.0.jar:/Users/lucasperkins/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.3.7.jar:/Users/lucasperkins/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/Users/lucasperkins/.ivy2/cache/com.propensive/rapture-io_2.10/jars/rapture-io_2.10-0.9.0.jar:/Users/lucasperkins/.sbt/boot/scala-2.10.4/lib/scala-reflect.jar:/Users/lucasperkins/.ivy2/cache/com.propensive/rapture-core_2.10/jars/rapture-core_2.10-0.9.0.jar:/Users/lucasperkins/.ivy2/cache/scala_2.10/sbt_0.13/org.xerial.sbt/sbt-sonatype/jars/sbt-sonatype-0.2.1.jar:/Users/lucasperkins/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.2.6.jar:/Users/lucasperkins/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.2.5.jar:/Users/lucasperkins/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/Users/lucasperkins/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.6.jar:/Users/lucasperkins/.ivy2/cache/com.propensive/rapture-uri_2.10/jars/rapture-uri_2.10-0.9.0.jar:/Users/lucasperkins/.ivy2/cache/com.propensive/rapture-mime_2.10/jars/rapture-mime_2.10-0.9.0.jar:/Users/lucasperkins/.ivy2/cache/nl.gideondk/sentinel_2.10/jars/sentinel_2.10-0.7.5.1.jar:/Users/lucasperkins/.ivy2/cache/com.typesafe.play/play-iteratees_2.10/jars/play-iteratees_2.10-2.3.1.jar:/Users/lucasperkins/.ivy2/cache/org.scala-stm/scala-stm_2.10/jars/scala-stm_2.10-0.7.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 3.850156538 s[0m
+[0m[[0mdebug[0m] [0mScala compilation took 5.193645283 s[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
