@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3729add7[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d0a23b7[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
@@ -24,44 +24,32 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.11;2.3.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.3.7 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.7[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-actor_2.11;2.3.7[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.11;2.3.7 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.4[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.11.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m	[2.11.4] org.scala-lang#scala-library;2.11.4[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.3.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.10;2.3.7 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.3.7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-actor_2.10;2.3.7[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.10;2.3.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.2.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe#config;1.2.1[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe#config;1.2.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.propensive#rapture-io_2.10;0.9.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.propensive#rapture-io_2.10;0.9.0 {compile=[default(compile)]}[0m
@@ -71,9 +59,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -83,14 +69,11 @@
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-reflect;2.10.4[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.propensive#rapture-core_2.10;0.9.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.propensive#rapture-core_2.10;0.9.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -99,9 +82,7 @@
 [0m[[0mdebug[0m] [0m	found com.propensive#rapture-core_2.10;0.9.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.xerial.sbt#sbt-sonatype;0.2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.xerial.sbt#sbt-sonatype;0.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -146,8 +127,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [runtime->runtime(*)][0m
@@ -170,9 +150,7 @@
 [0m[[0mdebug[0m] [0m	found com.propensive#rapture-uri_2.10;0.9.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->master(*)][0m
@@ -180,8 +158,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [runtime->runtime(*)][0m
@@ -194,21 +171,17 @@
 [0m[[0mdebug[0m] [0m	found com.propensive#rapture-mime_2.10;0.9.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [runtime->runtime(*)][0m
@@ -218,6 +191,61 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving nl.gideondk#sentinel_2.10;0.7.5.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: nl.gideondk#sentinel_2.10;0.7.5.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: nl.gideondk#sentinel_2.10;0.7.5.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: nl.gideondk#sentinel_2.10;0.7.5.1[0m
+[0m[[0mdebug[0m] [0m	found nl.gideondk#sentinel_2.10;0.7.5.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-iteratees_2.10;2.3.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-iteratees_2.10;2.3.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.10;2.3.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-iteratees_2.10;2.3.1[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#play-iteratees_2.10;2.3.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-stm#scala-stm_2.10;0.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-stm#scala-stm_2.10;0.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.10;0.7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-stm#scala-stm_2.10;0.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-stm#scala-stm_2.10;0.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [compile][0m
@@ -229,37 +257,31 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->master(*)][0m
@@ -279,9 +301,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->master(*)][0m
@@ -289,24 +309,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [runtime->runtime(*)][0m
@@ -324,8 +339,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [runtime->runtime(*)][0m
@@ -333,11 +347,48 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [runtime][0m
@@ -350,37 +401,31 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->master(*)][0m
@@ -400,9 +445,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->master(*)][0m
@@ -410,24 +453,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [runtime->runtime(*)][0m
@@ -445,8 +483,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [runtime->runtime(*)][0m
@@ -454,11 +491,48 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
@@ -474,37 +548,31 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->master(*)][0m
@@ -524,9 +592,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->master(*)][0m
@@ -534,24 +600,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [runtime->runtime(*)][0m
@@ -569,8 +630,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [runtime->runtime(*)][0m
@@ -578,11 +638,48 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
@@ -597,37 +694,31 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->master(*)][0m
@@ -647,9 +738,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->master(*)][0m
@@ -657,24 +746,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [runtime->runtime(*)][0m
@@ -692,8 +776,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [runtime->runtime(*)][0m
@@ -701,11 +784,48 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [test-internal][0m
@@ -720,37 +840,31 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.11;2.3.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.3.7->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [compile->master(*)][0m
@@ -770,9 +884,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [compile->master(*)][0m
@@ -780,24 +892,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-core_2.10;0.9.0->org.xerial.sbt#sbt-sonatype;0.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.xerial.sbt#sbt-sonatype;0.2.1->org.apache.httpcomponents#httpclient;4.2.6 [runtime->runtime(*)][0m
@@ -815,8 +922,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-uri_2.10;0.9.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-uri_2.10;0.9.0->com.propensive#rapture-core_2.10;0.9.0 [runtime->runtime(*)][0m
@@ -824,11 +930,48 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-io_2.10;0.9.0->com.propensive#rapture-mime_2.10;0.9.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.propensive#rapture-mime_2.10;0.9.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.propensive#rapture-io_2.10;0.9.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.play#play-iteratees_2.10;2.3.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->org.scala-stm#scala-stm_2.10;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.10;0.7->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.10;2.3.1->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
@@ -855,8 +998,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
@@ -895,9 +1036,9 @@
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.7!akka-actor_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.3.7!akka-actor_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.propensive#rapture-io_2.10;0.9.0!rapture-io_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.4!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] nl.gideondk#sentinel_2.10;0.7.5.1!sentinel_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.propensive#rapture-core_2.10;0.9.0!rapture-core_2.10.jar[0m
@@ -908,10 +1049,12 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.2.5!httpcore.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.6!commons-codec.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-iteratees_2.10;2.3.1!play-iteratees_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-stm#scala-stm_2.10;0.7!scala-stm_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1641ms :: artifacts dl 44ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2030ms :: artifacts dl 24ms[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.10;0.1.0 compile produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.10;0.1.0 runtime produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.10;0.1.0 test produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.10-test.xml[0m
@@ -926,5 +1069,5 @@
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.10;0.1.0 pom produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.10;0.1.0 scala-tool produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.10-scala-tool.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.10;0.1.0 protobuf produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.10-protobuf.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1641ms resolve - 44ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (2030ms resolve - 24ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

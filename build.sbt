@@ -13,12 +13,15 @@ generatedTargets in PB.protobufConfig <++= (sourceDirectory in Compile){ dir =>
 }
 
 resolvers ++= Seq(
-  Resolver.mavenLocal
+  Resolver.mavenLocal,
+  "gideondk-repo" at "https://raw.github.com/gideondk/gideondk-mvn-repo/master",
+  "Typesafe Releases" at "https://repo.typesafe.com/typesafe/releases/"
 )
 
 libraryDependencies ++= Seq(
-  "com.typesafe.akka" % "akka-actor_2.11" % "2.3.7",
-  "com.propensive" %% "rapture-io" % "0.9.0"
+  "com.typesafe.akka" %% "akka-actor" % "2.3.7",
+  "com.propensive" %% "rapture-io" % "0.9.0",
+  "nl.gideondk" %% "sentinel" % "0.7.5.1"
 )
 
 Revolver.settings
