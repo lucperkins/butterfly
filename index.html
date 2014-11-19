@@ -1,0 +1,225 @@
+<!DOCTYPE html><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"></html><![endif]--><!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"></html><![endif]--><!--[if IE 8]><html class="no-js lt-ie9" lang="en"></html><![endif]--><!--[if gt IE 8]>
+<!--> <html class="no-js" lang="en"> <!--<![endif]--><head class="tutorial"><meta charset="utf-8" /><meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" /><meta content="width=device-width" name="viewport" /><meta content="riak" name="project" /><meta content="2.0.2" name="version" /><meta name="moved-ranges" content='{"1.4.0-":"/tutorials/fast-track/What-is-Riak"}'><meta content="0.10.0+" name="version-range" /><meta content="/theory/why-riak/" name="base-url" /><title>Why Riak</title><link href="/css/standalone/version-bar.css?1416429478" media="screen" rel="stylesheet" type="text/css" /><link href="/riak/2.0.2/css/all.css?1416429478" media="screen" rel="stylesheet" type="text/css" /><link href="/riak/2.0.2/css/basho-palette.css?1416355338" media="screen" rel="stylesheet" type="text/css" /><link href="/riak/2.0.2/css/bootstrap-tabs.css?1416355338" media="screen" rel="stylesheet" type="text/css" /><link href="/riak/2.0.2/css/print.css?1416429478" media="print" rel="stylesheet" type="text/css" /><script src="/riak/2.0.2/js/all.js?1416355338" type="text/javascript"></script><script src="/js/standalone/version-bar.js?1416429478" type="text/javascript"></script><script>hljs.initHighlightingOnLoad();</script></head><body class="riak latest"><aside id="nav-container" role="complementary"><nav class="overview" id="primary-nav" role="nav"><div id="primary-nav-content"><h2 class="responsive-link"><a class="responsive-toggle"></a></h2><form action="http://search.basho.com"><div class="nav-field-container"><div id="icon-container-search"><div class="icon-container"><span aria-hidden="true" class="nav-icon nav-icon-search" data-icon="&#xf002;"></span></div><span class="separator">&#124;</span></div><input id="main-search" name="q" placeholder="Search" size="5" type="search" /></div></form><div class="clear"></div><h3 class="responsive-link visit-basho"><a href="http://www.basho.com"><div class="icon-container"><span aria-hidden="true" class="nav-icon" data-icon="&#xe003;"></span></div><span class="separator">&#124;</span><span class="menu-title">Visit Basho</span><div class="clear"></div></a></h3><h3 class="responsive-link"><a href="/index.html"><div class="icon-container"><span aria-hidden="true" class="nav-icon" data-icon="&#xe003;"></span></div><span class="separator">&#124;</span><span class="menu-title">All Riak Projects</span><div class="clear"></div></a></h3><h3 class="active start"><div class="icon-container"><span aria-hidden="true" class="nav-icon" data-icon="&#xf0e7;"></span></div><span class="separator">&#124;</span><span class="menu-title">Start Here</span><div class="clear"></div></h3><ul class="depth-1 start active"><li><a href="../../" class="riak">Start Here</a></li><li><a href="../../intro-v20/" class="riak">Riak 2.0</a></li><li><a href="../../upgrade-v20/" class="riak">Upgrading to 2.0</a></li><li class="active current"><a href="../../theory/why-riak/" class="riak">Why Riak?</a></li><li><a href="../../quickstart/" class="riak">Five-minute Install</a></li></ul><h3><div class="icon-container"><span aria-hidden="true" class="nav-icon" data-icon="&#xe005;"></span></div><span class="separator">&#124;</span><span class="menu-title">Riak for Developers</span><div class="clear"></div></h3><ul class="depth-1 "><li><h4><span>A Taste of Riak</span></h4><ul class="depth-2 "><li><h4><span>CRUD Operations</span></h4><ul class="depth-3 "><li><a href="../../dev/taste-of-riak/" class="riak">Prerequisites</a></li><li><a href="../../dev/taste-of-riak/java/" class="riak">Java</a></li><li><a href="../../dev/taste-of-riak/ruby/" class="riak">Ruby</a></li><li><a href="../../dev/taste-of-riak/python/" class="riak">Python</a></li><li><a href="../../dev/taste-of-riak/erlang/" class="riak">Erlang</a></li></ul></li><li><h4><span>A Taste of Querying</span></h4><ul class="depth-3 "><li><a href="../../dev/taste-of-riak/querying/" class="riak">Prerequisites</a></li><li><a href="../../dev/taste-of-riak/querying-java/" class="riak">Java</a></li><li><a href="../../dev/taste-of-riak/querying-python/" class="riak">Python</a></li><li><a href="../../dev/taste-of-riak/querying-ruby/" class="riak">Ruby</a></li><li><a href="../../dev/taste-of-riak/querying-erlang/" class="riak">Erlang</a></li></ul></li><li><h4><span>Object Modeling</span></h4><ul class="depth-3 "><li><a href="../../dev/taste-of-riak/object-modeling/" class="riak">Introduction</a></li><li><a href="../../dev/taste-of-riak/object-modeling-java/" class="riak">Java</a></li><li><a href="../../dev/taste-of-riak/object-modeling-ruby/" class="riak">Ruby</a></li><li><a href="../../dev/taste-of-riak/object-modeling-python/" class="riak">Python</a></li><li><a href="../../dev/taste-of-riak/object-modeling-erlang/" class="riak">Erlang</a></li></ul></li></ul></li><li><h4><span>Basic Usage</span></h4><ul class="depth-2 "><li><a href="../../dev/using/application-guide/" class="riak">Application Guide</a></li><li><a href="../../dev/using/libraries/" class="riak">Client Libraries</a></li><li><a href="../../dev/using/basics/" class="riak">Key/Value Operations</a></li><li><a href="../../dev/using/updates/" class="riak">Object Updates</a></li><li><a href="../../dev/using/search/" class="riak">Search</a></li><li><a href="../../dev/advanced/bucket-types/" class="riak">Bucket Types</a></li><li><a href="../../dev/using/data-types/" class="riak">Data Types</a></li><li><a href="../../dev/using/mapreduce/" class="riak">MapReduce</a></li><li><a href="../../dev/using/2i/" class="riak">Secondary Indexes</a></li><li><a href="../../dev/using/commit-hooks/" class="riak">Commit Hooks</a></li><li><h4><span>Conflict Resolution</span></h4><ul class="depth-3 "><li><a href="../../dev/using/conflict-resolution/" class="riak">Introduction</a></li><li><a href="../../dev/using/conflict-resolution/java/" class="riak">Java</a></li><li><a href="../../dev/using/conflict-resolution/ruby/" class="riak">Ruby</a></li><li><a href="../../dev/using/conflict-resolution/python/" class="riak">Python</a></li></ul></li></ul></li><li><h4><span>Data Modeling</span></h4><ul class="depth-2 "><li><a href="../../dev/data-modeling/" class="riak">Use Cases for Riak</a></li><li><a href="../../dev/data-modeling/key-value/" class="riak">Key/Value Modeling</a></li><li><a href="../../dev/data-modeling/data-types/" class="riak">Data Types</a></li><li><a href="../../dev/data-modeling/sql-migration/" class="riak">Migrating from an SQL Database to Riak</a></li></ul></li><li><h4><span>Advanced</span></h4><ul class="depth-2 "><li><a href="../../dev/advanced/search/" class="riak">Search Details</a></li><li><a href="../../dev/advanced/search-schema/" class="riak">Search Schema</a></li><li><a href="../../dev/advanced/mapreduce/" class="riak">MapReduce</a></li><li><a href="../../dev/advanced/2i/" class="riak">Secondary Indexes</a></li><li><a href="../../dev/advanced/commit-hooks/" class="riak">Commit Hooks</a></li><li><a href="../../dev/advanced/replication-properties/" class="riak">Replication Properties</a></li><li><a href="../../dev/advanced/strong-consistency/" class="riak">Strong Consistency</a></li><li><a href="../../dev/advanced/cluster-metadata/" class="riak">Cluster Metadata</a></li><li><h4><span>Client-side Security</span></h4><ul class="depth-3 "><li><a href="../../dev/advanced/client-security/" class="riak">Introduction</a></li><li><a href="../../dev/advanced/client-security/java/" class="riak">Java</a></li><li><a href="../../dev/advanced/client-security/ruby/" class="riak">Ruby</a></li><li><a href="../../dev/advanced/client-security/python/" class="riak">Python</a></li><li><a href="../../dev/advanced/client-security/erlang/" class="riak">Erlang</a></li></ul></li><li><h4><span>Reference</span></h4><ul class="depth-3 "><li><a href="../../dev/references/client-implementation/" class="riak">Implementing a Client</a></li><li><a href="../../dev/references/backend-api/" class="riak">Implementing a Backend</a></li></ul></li></ul></li></ul><h3><div class="icon-container"><span aria-hidden="true" class="nav-icon" data-icon="&#xf013;"></span></div><span class="separator">&#124;</span><span class="menu-title">Riak for Operators</span><div class="clear"></div></h3><ul class="depth-1 "><li><h4><span>Building a Cluster</span></h4><ul class="depth-2 "><li><h4><span>Installation</span></h4><ul class="depth-3 "><li><a href="../../downloads/" class="riak">Download Riak</a></li><li><a href="../../ops/building/installing/" class="riak">Installing and Upgrading</a></li><li><a href="../../ops/building/installing/erlang/" class="riak">Installing Erlang</a></li><li><a href="../../ops/building/installing/debian-ubuntu/" class="riak">Debian and Ubuntu</a></li><li><a href="../../ops/building/installing/rhel-centos/" class="riak">RHEL and CentOS</a></li><li><a href="../../ops/building/installing/mac-osx/" class="riak">Mac OS X</a></li><li><a href="../../ops/building/installing/freebsd/" class="riak">FreeBSD</a></li><li><a href="../../ops/building/installing/smartos/" class="riak">SmartOS</a></li><li><a href="../../ops/building/installing/solaris/" class="riak">Solaris 10</a></li><li><a href="../../ops/building/installing/suse/" class="riak">SUSE</a></li><li><a href="../../ops/building/installing/azure/" class="riak">Windows Azure</a></li><li><a href="../../ops/building/installing/aws-marketplace/" class="riak">AWS Marketplace</a></li><li><a href="../../ops/building/installing/from-source/" class="riak">From Source</a></li><li><a href="../../ops/building/installing/post-install/" class="riak">Post Installation</a></li></ul></li><li><h4><span>Planning</span></h4><ul class="depth-3 "><li><a href="../../ops/building/planning/system-planning/" class="riak">Start Planning</a></li><li><a href="../../ops/building/planning/cluster/" class="riak">Cluster Capacity</a></li><li><a href="../../ops/building/planning/bitcask/" class="riak">Bitcask Capacity</a></li><li><a href="../../ops/building/planning/backends/" class="riak">Choosing a Backend</a></li><li><a href="../../ops/building/planning/best-practices/" class="riak">Best Practices</a></li></ul></li><li><a href="../../ops/building/configuration/" class="riak">Basic Configuration</a></li><li><a href="../../ops/building/basic-cluster-setup/" class="riak">Basic Cluster Setup</a></li><li><a href="../../ops/building/benchmarking/" class="riak">Benchmarking</a></li><li><a href="../../ops/running/authz/" class="riak">Authentication and Authorization</a></li><li><a href="../../ops/running/security-sources/" class="riak">Managing Security Sources</a></li></ul></li><li><h4><span>Tuning</span></h4><ul class="depth-2 "><li><a href="../../ops/tuning/open-files-limit/" class="riak">Open Files Limit</a></li><li><a href="../../ops/tuning/linux/" class="riak">System Performance Tuning</a></li><li><a href="../../ops/tuning/aws/" class="riak">AWS Performance Tuning</a></li><li><a href="../../ops/tuning/latency-reduction/" class="riak">Latency Reduction</a></li><li><a href="../../ops/advanced/aae/" class="riak">Managing Active Anti-Entropy</a></li><li><a href="../../ops/tuning/erlang/" class="riak">Erlang VM Tuning</a></li></ul></li><li><h4><span>Running a Cluster</span></h4><ul class="depth-2 "><li><a href="../../ops/running/backups/" class="riak">Backing up Riak</a></li><li><a href="../../ops/running/logging/" class="riak">Logging</a></li><li><h4><span>Node Operations</span></h4><ul class="depth-3 "><li><a href="../../ops/running/nodes/adding-removing/" class="riak">Adding/Removing</a></li><li><a href="../../ops/running/nodes/renaming/" class="riak">Renaming Nodes</a></li><li><a href="../../ops/running/nodes/replacing/" class="riak">Replacing Nodes</a></li><li><a href="../../ops/running/nodes/inspecting/" class="riak">Inspecting Nodes</a></li></ul></li><li><h4><span>Command Line Tools</span></h4><ul class="depth-3 "><li><a href="../../ops/running/tools/riak/" class="riak">riak</a></li><li><a href="../../ops/running/tools/riak-admin/" class="riak">riak-admin</a></li></ul></li><li><h4><span>Repair and Recovery</span></h4><ul class="depth-3 "><li><a href="../../ops/running/recovery/failure-recovery/" class="riak">Failure and Recovery</a></li><li><a href="../../ops/running/recovery/failed-node/" class="riak">Recovering a Failed Node</a></li><li><a href="../../ops/running/recovery/repairing-partitions/" class="riak">Repairing Partitions</a></li><li><a href="../../ops/running/recovery/repairing-indexes/" class="riak">Repairing Indexes</a></li><li><a href="../../ops/running/recovery/repairing-leveldb/" class="riak">Repairing LevelDB</a></li><li><a href="../../ops/running/recovery/rolling-restart/" class="riak">Rolling Restart</a></li><li><a href="../../ops/running/recovery/errors/" class="riak">Common Errors</a></li></ul></li><li><h4><span>Monitoring</span></h4><ul class="depth-3 "><li><a href="../../ops/running/monitoring/stats-and-monitoring/" class="riak">Statistics and Monitoring</a></li><li><a href="../../ops/running/monitoring/jmx/" class="riak">JMX Monitoring</a></li><li><a href="../../ops/running/monitoring/snmp/" class="riak">SNMP</a></li></ul></li></ul></li><li><h4><span>Advanced</span></h4><ul class="depth-2 "><li><a href="../../ops/advanced/riak-control/" class="riak">Riak Control</a></li><li><a href="../../ops/advanced/install-custom-code/" class="riak">Installing Custom Code</a></li><li><a href="../../ops/advanced/security/" class="riak">Security and Firewalls</a></li><li><a href="../../ops/advanced/deletion/" class="riak">Object Deletion</a></li><li><a href="../../ops/advanced/runtime/" class="riak">Runtime Interaction</a></li><li><a href="../../ops/advanced/strong-consistency/" class="riak">Managing Strong Consistency</a></li><li><h4><span>Configurations</span></h4><ul class="depth-3 "><li><a href="../../ops/advanced/configs/configuration-files/" class="riak">Configuration Files</a></li><li><a href="../../ops/advanced/configs/mapreduce/" class="riak">MapReduce</a></li><li><a href="../../ops/advanced/configs/search/" class="riak">Search</a></li><li><a href="../../ops/advanced/configs/secondary-index/" class="riak">Secondary Indexes</a></li><li><a href="../../ops/advanced/configs/load-balancing-proxy/" class="riak">Load Balancing & Proxy</a></li><li><a href="../../dev/advanced/strong-consistency/" class="riak">Strong Consistency</a></li></ul></li><li><h4><span>Backends</span></h4><ul class="depth-3 "><li><a href="../../ops/advanced/backends/bitcask/" class="riak">Bitcask</a></li><li><a href="../../ops/advanced/backends/leveldb/" class="riak">LevelDB</a></li><li><a href="../../ops/advanced/backends/memory/" class="riak">Memory</a></li><li><a href="../../ops/advanced/backends/multi/" class="riak">Multi</a></li></ul></li></ul></li><li><h4><span>Upgrading a Cluster</span></h4><ul class="depth-2 "><li><a href="../../ops/upgrading/production-checklist/" class="riak">Production Checklist</a></li><li><a href="../../ops/upgrading/rolling-upgrades/" class="riak">Rolling Upgrades</a></li><li><a href="../../ops/upgrading/rolling-downgrades/" class="riak">Rolling Downgrades</a></li><li><a href="../../ops/advanced/upgrading-search-2/" class="riak">Upgrading Search from 1.x to 2.x</a></li></ul></li><li><h4><span>Multi-Datacenter</span></h4><ul class="depth-2 "><li><h4><span>Version 2 Replication</span></h4><ul class="depth-3 "><li><a href="../../ops/mdc/v2/architecture/" class="riak">Architecture</a></li><li><a href="../../ops/mdc/v2/configuration/" class="riak">Configuration</a></li><li><a href="../../ops/mdc/v2/operations/" class="riak">Operations</a></li><li><a href="../../ops/mdc/v2/quick-start/" class="riak">Quick Start</a></li><li><a href="../../ops/mdc/v2/scheduling-fullsync/" class="riak">Scheduling Fullsync</a></li><li><a href="../../ops/mdc/v2/ssl/" class="riak">SSL</a></li><li><a href="../../ops/mdc/v2/nat/" class="riak">With NAT</a></li><li><a href="../../ops/mdc/v2/hooks/" class="riak">Repl Hooks</a></li></ul></li><li><h4><span>Version 3 Replication</span></h4><ul class="depth-3 "><li><a href="../../ops/mdc/v3/architecture/" class="riak">Architecture</a></li><li><a href="../../ops/mdc/v3/configuration/" class="riak">Configuration</a></li><li><a href="../../ops/mdc/v3/operations/" class="riak">Operations</a></li><li><a href="../../ops/mdc/v3/quick-start/" class="riak">Quick Start</a></li><li><a href="../../ops/mdc/v3/ssl/" class="riak">SSL</a></li><li><a href="../../ops/mdc/v3/nat/" class="riak">With NAT</a></li><li><a href="../../ops/mdc/v3/aae/" class="riak">Active Anti-Entropy</a></li><li><a href="../../ops/mdc/v3/cascading-writes/" class="riak">Cascading Writes</a></li></ul></li><li><a href="../../ops/mdc/system-tuning/" class="riak">System Tuning</a></li><li><a href="../../ops/mdc/comparison/" class="riak">Version Comparison</a></li><li><a href="../../ops/mdc/upgrade-v2-to-v3/" class="riak">Upgrade Guide</a></li><li><a href="../../ops/mdc/statistics/" class="riak">Statistics</a></li><li><a href="../../ops/mdc/monitoring/" class="riak">Monitoring</a></li><li><a href="../../ops/mdc/per-bucket/" class="riak">Per Bucket</a></li><li><a href="../../ops/mdc/v2/hooks/" class="riak">Repl Hooks</a></li></ul></li></ul><h3><div class="icon-container"><span aria-hidden="true" class="nav-icon" data-icon="&#xf0c3;"></span></div><span class="separator">&#124;</span><span class="menu-title">Theory & Concepts</span><div class="clear"></div></h3><ul class="depth-1 "><li><h4><span>Concepts</span></h4><ul class="depth-2 "><li><a href="../../theory/concepts/Buckets/" class="riak">Buckets</a></li><li><a href="../../theory/concepts/Clusters/" class="riak">Clusters</a></li><li><a href="../../theory/concepts/context/" class="riak">Causal Context</a></li><li><a href="../../theory/concepts/crdts/" class="riak">Data Types</a></li><li><a href="../../theory/concepts/Eventual-Consistency/" class="riak">Eventual Consistency</a></li><li><a href="../../theory/concepts/strong-consistency/" class="riak">Strong Consistency</a></li><li><a href="../../theory/concepts/keys-and-values/" class="riak">Keys and Objects</a></li><li><a href="../../theory/concepts/aae/" class="riak">Active Anti-Entropy</a></li><li><a href="../../theory/concepts/Replication/" class="riak">Replication</a></li><li><a href="../../theory/concepts/capability-negotiation/" class="riak">Capability Negotiation</a></li></ul></li><li><h4><span>Riak Compared to</span></h4><ul class="depth-2 "><li><a href="../../theory/comparisons/cassandra/" class="riak">Cassandra</a></li><li><a href="../../theory/comparisons/couchbase/" class="riak">Couchbase</a></li><li><a href="../../theory/comparisons/couchdb/" class="riak">CouchDB</a></li><li><a href="../../theory/comparisons/hbase/" class="riak">HBase</a></li><li><a href="../../theory/comparisons/mongodb/" class="riak">MongoDB</a></li><li><a href="../../theory/comparisons/neo4j/" class="riak">Neo4j</a></li><li><a href="../../theory/comparisons/dynamodb/" class="riak">DynamoDB</a></li></ul></li><li><a href="../../theory/concepts/glossary/" class="riak">Riak Glossary</a></li><li><a href="../../theory/dynamo/" class="riak">Dynamo Paper</a></li></ul><h3><div class="icon-container"><span aria-hidden="true" class="nav-icon" data-icon="&#xe000;"></span></div><span class="separator">&#124;</span><span class="menu-title">Community</span><div class="clear"></div></h3><ul class="depth-1 "><li><h4><span>Lectures</span></h4><ul class="depth-2 "><li><a href="../../community/lectures/introductions/" class="riak">Introductions</a></li><li><a href="../../community/lectures/developing/" class="riak">Developing with Riak</a></li><li><a href="../../community/lectures/operating/" class="riak">Operating in Production</a></li><li><a href="../../community/lectures/searching-accessing/" class="riak">Searching and Accessing</a></li></ul></li><li><h4><span>FAQs</span></h4><ul class="depth-2 "><li><a href="../../community/faqs/" class="riak">All FAQs</a></li><li><a href="../../community/faqs/basics/" class="riak">The Basics</a></li><li><a href="../../community/faqs/developing/" class="riak">Developing on Riak</a></li><li><a href="../../community/faqs/operations/" class="riak">Operating Riak</a></li><li><a href="../../community/faqs/logs/" class="riak">Log Messages</a></li><li><a href="../../community/faqs/community/" class="riak">Riak Community</a></li></ul></li><li><a href="../../community/" class="riak">Community Help</a></li><li><a href="../../dev/advanced/community-projects/" class="riak">Community Projects</a></li><li><a href="../../community/bugs/" class="riak">Reporting Bugs</a></li><li><a href="../../community/style-guide/" class="riak">Style Guide</a></li><li><a href="../../community/riak-images/" class="riak">Riak Images</a></li><li><a href="../../community/release-notes/" class="riak">Release Notes</a></li></ul><h3><div class="icon-container"><span aria-hidden="true" class="nav-icon" data-icon="&#xe001;"></span></div><span class="separator">&#124;</span><span class="menu-title">APIs</span><div class="clear"></div></h3><ul class="depth-1 "><li><a href="../../dev/references/http/" class="riak">HTTP API</a></li><li><a href="../../dev/references/protocol-buffers/" class="riak">Protocol Buffers</a></li></ul><ul /></div></nav><ul id="fixed-nav"><li><a href="https://github.com/basho/basho_docs" target="_blank"><div class="icon-container"><span aria-hidden="true" class="nav-icon" data-icon="&#xe004;"></span></div><span class="separator">&#124;</span>Available on GitHub</a></li><li><a href="../../community/"><div class="icon-container"><span aria-hidden="true" class="nav-icon" data-icon="&#xf059;"></span></div><span class="separator">&#124;</span>Get Help</a></li></ul></aside><div role="main"><header class="masthead"><div id="header"><div id="ricon-temp-banner"><div class="temp-banner-text">Riak 2.0.2 is now available. <a class="register" href="http://docs.basho.com/riak/latest/downloads/">Download Here</a></div></div><div id="header-inner"><div class="icon-reorder" id="nav-toggle"></div><div id="top-nav"><a class="riak" href="../../downloads/"><span class="icon-download-alt"></span>Downloads</a><div id="nav-more"><span class="icon-more"></span></div></div><a class="responsive-toggle"></a><a class="logo" href="/index.html"><h1>Riak Docs</h1></a><span class="tagline">Product tutorials, how-tos, and fully-documented APIs.</span><div id="nav-menu"><h2>Links</h2><ul><li><a href="http://docs.basho.com/">Docs Home</a></li><li><a href="http://basho.com/">Basho Website</a></li></ul><div id="nav-menu-arrow"></div><div id="nav-menu-arrow-back"></div></div><div class="clear"></div><div class="header-rule"></div></div></div></header><div id="ricon-temp-banner-responsive"><a href="http://docs.basho.com/riak/latest/downloads/">Download Riak 2.0</a></div><article class="mainarticle"><div class="versions"></div><header><h1>Why Riak</h1></header><nav id="toc"><h2 class="title">Contents</h2><div id="toc-wrapper"><ol id="toc-items"></ol></div></nav><h2>What is Riak?</h2>
+
+<p>Riak is a distributed database designed to deliver maximum data
+availability by distributing data across multiple servers. As long as
+your Riak client can reach <em>one</em> Riak server, it should be able to write
+data.</p>
+
+<p>While Riak is typically known as an eventually consistent system,
+beginning with version 2.0 it can be used either as an eventually <em>or</em>
+strongly consistent system, and these two approaches can be mixed and
+matched in a single cluster.</p>
+
+<p>When Riak is used as an <strong>eventually consistent</strong> system, the data that
+you want to read should remain available in most failure scenarios,
+although it may not be the most up-to-date version of that data.</p>
+
+<p>When Riak is used as a <strong>strongly</strong> consistent system, on the other
+hand, reads will return the most up-to-date version of data, with the
+drawback that some nodes will be temporarily unavailable to receive
+writes in certain rare situations.</p>
+
+<h3>Basho&#39;s goals for Riak</h3>
+
+<table><thead>
+<tr>
+<th>Goal</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><strong>Availability</strong></td>
+<td>Riak writes to and reads from multiple servers to offer data availability even when hardware or the network itself are experiencing failure conditions</td>
+</tr>
+<tr>
+<td><strong>Operational simplicity</strong></td>
+<td>Easily add new machines to your Riak cluster without incurring a larger operational burden</td>
+</tr>
+<tr>
+<td><strong>Scalability</strong></td>
+<td>Riak automatically distributes data around the cluster and yields a near-linear performance increase as you add capacity</td>
+</tr>
+<tr>
+<td><strong>Masterless</strong></td>
+<td>Your requests are not held hostage to a specific server in the cluster that may or may not be available</td>
+</tr>
+</tbody></table>
+
+<h3>When Riak makes sense</h3>
+
+<p>If your data does not fit on a single server and demands a distributed
+database architecture, you should take a close look at Riak as a
+potential solution to your data availability issues. Getting distributed
+databases right is <strong>very</strong> difficult, and Riak was built to address the
+problem of data availability with as few trade-offs and downsides as
+possible.</p>
+
+<p>Riak&#39;s focus on availability makes it a good fit whenever downtime is
+unacceptable. No one can promise 100% uptime, but Riak is designed to
+survive network partitions and hardware failures that would
+significantly disrupt most databases. An exception to Riak&#39;s high
+availability approach is the optional <a href="../../dev/advanced/strong-consistency/" class="riak">strong consistency</a> feature, which can be applied on a selective basis.</p>
+
+<p>A less-heralded feature of Riak is its predictable latency. Because its
+fundamental operations&mdash;read, write, and delete&mdash;do not involve
+complex data joins or locks, it services those requests promptly. Thanks
+to this capability, Riak is often selected as a data storage backend for
+data management software from a variety of paradigms, such as
+<a href="http://www.datomic.com/overview.html">Datomic</a>.</p>
+
+<p>From the standpoint of the actual content of your data, Riak might also
+be a good choice if your data can be modeled as one of Riak&#39;s currently
+available <a href="../../dev/using/data-types/" class="riak">Data Types</a>: flags, registers, counters,
+sets, or maps. These Data Types enable you to take advantage of Riak&#39;s
+high availability approach while simplifying application development.</p>
+
+<h3>When Riak is Less of a Good Fit</h3>
+
+<p>Basho recommends that you run no fewer than 5 data servers in a cluster.
+This means that Riak can be overkill for small databases. If you&#39;re not
+already sure that you will need a distributed database, there&#39;s a good
+chance that you won&#39;t need Riak.</p>
+
+<p>If explosive growth is a possibility, however, you are always highly
+advised to prepare for that in advance. Scaling at Internet speeds is
+sometimes compared to overhauling an airplane mid-flight. If you feel
+that such a transition might be necessary in the future, then you might
+want to consider Riak.</p>
+
+<p>Riak&#39;s simple data model, consisting of keys and values as its atomic
+elements, means that your data must be denormalized if your system is to
+be reasonably performant. For most applications this is not a serious
+hurdle. But if your data simply cannot be effectively managed as keys
+and values, Riak will most likely not be the best fit for you.</p>
+
+<p>Correspondingly, if your application demands a high query load by any
+means other than key/value lookup&mdash;e.g. SQL-style <code>SELECT * FROM table</code>
+operations&mdash;Riak will not be as efficient as other databases. If you
+wish to compare Riak with other data technologies, Basho offers a tool
+called <a href="../../ops/building/benchmarking/" class="riak">Basho Bench</a> to help measure its performance, so that you can
+decide whether the availability and operational benefits of Riak
+outweigh its disadvantages.</p>
+
+<h2>How Does a Riak Cluster Work?</h2>
+
+<p>A Riak cluster is a group of <strong>nodes</strong> that are in constant
+communication to ensure data availability and partition tolerance.</p>
+
+<h3>What is a Riak Node?</h3>
+
+<p>A Riak node is not quite the same as a server, but in a production
+environment the two should be equivalent. A developer may run multiple
+nodes on a single laptop, but this would never be advisable in a real
+production cluster.</p>
+
+<p>Each node in a Riak cluster is equivalent, containing a complete,
+independent copy of the whole Riak package. There is no &ldquo;master&rdquo; node;
+no node has more responsibilities than others; and no node has special
+tasks not performed by other nodes. This uniformity provides the basis
+for Riak&#39;s fault tolerance and scalability.</p>
+
+<p>Each node is responsible for multiple data partitions, as discussed
+below:</p>
+
+<h3>Riak Automatically Re-Distributes Data When Capacity is Added</h3>
+
+<p>When you add (or remove) machines, data is rebalanced automatically with
+no downtime. New machines claim data until ownership is equally spread
+around the cluster, with the resulting cluster status updates shared to
+every node via a gossip protocol and used to route requests. This is
+what makes it possible for any node in the cluster to receive requests.
+The end result is that developers don&#39;t need to deal with the underlying
+complexity of where data lives.</p>
+
+<h3>Consistent Hashing</h3>
+
+<p>Data is distributed across nodes using consistent hashing. Consistent
+hashing ensures that data is evenly distributed around the cluster and
+makes possible the automatic redistribution of data as the cluster
+scales.</p>
+
+<h3>Intelligent Replication</h3>
+
+<p>Riak&#39;s replication scheme ensures that you can still read, write, and
+update data if nodes go down. Riak allows you to set a replication
+variable, N (also known as the <code>n_val</code>), that specifies the number of
+nodes on which a value will be replicated.</p>
+
+<p>An <code>n_val</code> value of 3 (the default) means that each object is replicated
+3 times. When an object&#39;s key is mapped onto a given node, Riak will
+continue on and automatically replicate the data onto two more nodes.
+This parameter enables you to replicate values to 7 nodes in a 10-node
+cluster, 10 nodes in a 15-node cluster, and so on.</p>
+
+<h2>When Things Go Wrong</h2>
+
+<p>Riak retains fault tolerance, data integrity, and availability even in
+failure conditions such as hardware failure and network partitions. Riak
+has a number of means of addressing these scenarios and other bumps in
+the road, like version conflicts in data.</p>
+
+<h3>Hinted Handoff</h3>
+
+<p>Hinted handoff enables Riak to handle node failure. If a node goes down,
+a neighboring node will take over its storage operations. When the
+failed node returns, the updates received by the neighboring node are
+handed back to it. This ensures that availability for writes and updates
+is maintained automatically, minimizing the operational burden of
+failure conditions.</p>
+
+<h3>Version Conflicts</h3>
+
+<p>In any system that replicates data, conflicts can arise, for example
+when two clients update the same object at the exact same time or when
+not all updates have yet reached hardware that is experiencing lag.</p>
+
+<p>In Riak, replicas are <a href="../../theory/concepts/Eventual-Consistency/" class="riak">eventually consistent</a>,
+meaning that while data is always available, not all replicas may have
+the most recent update at the exact same time, causing brief
+periods&mdash;generally on the order of milliseconds&mdash;of inconsistency
+while all state changes are synchronized.</p>
+
+<p>Riak addresses data conflicts as follows: When you make a read request,
+Riak looks up all replicas for that object. By default, Riak will return
+the most recently updated version, determined by looking at the object&#39;s
+vector clock. Vector clocks are metadata attached to each replica when
+it is created. They are extended each time a replica is updated to keep
+track of versions. You can also allow clients to resolve conflicts
+themselves if that is a better fit for your use case.</p>
+
+<h3>Riak Data Types</h3>
+
+<p>If you are not interested in dealing with version conflicts on the
+application side, <a href="../../dev/using/data-types/" class="riak">Riak Data Types</a> offer a powerful
+yet easy-to-use means of storing certain types of data while allowing
+Riak to handle merge conflicts. These conflicts are resolved
+automatically by Riak using Data Type-specific algorithms inspired by
+research into <a href="http://hal.upmc.fr/docs/00/55/55/88/PDF/techreport.pdf">convergent replicated data
+types</a>.</p>
+
+<h3>Read Repair</h3>
+
+<p>When an outdated replica is returned as part of a read request, Riak
+will automatically update the out-of-sync replica to make it consistent.
+<a href="../../theory/concepts/glossary/#Read-Repair" class="riak">Read repair</a>, a self-healing property of
+the database, will even update a replica that returns a <code>not_found</code> in
+the event that a node loses the data due to physical failure.</p>
+
+<h3>Reading and Writing Data in Failure Conditions</h3>
+
+<p>In Riak, you can set an R value for reads and a W value for writes.
+These values give you control over how many replicas must respond to a
+request for it to succeed.</p>
+
+<p>Let&#39;s say that you have an N value of 3 (aka <code>n_val=3</code>) for a particular
+key/value pair, but one of the physical nodes responsible for a replica
+is down. With an <code>r=2</code> setting, only 2 replicas must return results for
+read to be deemed successful. This allows Riak to provide read
+availability even when nodes are down or laggy. The same applies for the
+W in writes. If this value is not specified, Riak defaults to <code>quorum</code>,
+according to which the majority of nodes must respond.</p>
+
+<p>There is more on <a href="../../dev/advanced/replication-properties/" class="riak">replication properties</a> elsewhere in the
+documentation.</p>
+<div class="clear"></div><section class="right-sidebar"><aside class="secondary" role="complementary"><nav class="suggestions"><h4>These May Also Interest You</h4><div class="columns"><ul><li><a href="../../theory/concepts/Clusters/" class="riak">Clusters</a></li><li><a href="../../theory/concepts/Buckets/" class="riak">Buckets</a></li><li><a href="../../theory/concepts/Eventual-Consistency/" class="riak">Eventual Consistency</a></li><li><a href="../../theory/concepts/Vector-Clocks/" class="riak">Vector Clocks</a></li><li><a href="../../theory/concepts/Replication/" class="riak">Replication</a></li></ul></div></nav><nav class="keywords"><h4>Keywords:</h4><a href="../../keywords/tutorial/">tutorial</a>, <a href="../../keywords/fast-track/">fast-track</a></nav></aside></section></article><footer class="mastfooter">This work is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 Unported License</a><br />&copy; 2011-2014<a href="http://www.basho.com">Basho Technologies, Inc.</a></footer></div><script type="text/javascript">document.write(unescape("%3Cscript src='/riak/2.0.2//munchkin.marketo.net/munchkin.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">Munchkin.init('721-DGT-611');</script></body></html>

@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7595c8f3[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c02631d[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
@@ -246,6 +246,210 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-stream-experimental_2.10;0.10 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-stream-experimental_2.10;0.10 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-stream-experimental_2.10;0.10[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-stream-experimental_2.10;0.10[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-stream-experimental_2.10;0.10 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.iq80.leveldb#leveldb;0.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.iq80.leveldb#leveldb;0.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.iq80.leveldb#leveldb;0.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.iq80.leveldb#leveldb;0.5[0m
+[0m[[0mdebug[0m] [0m	found org.iq80.leveldb#leveldb;0.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.iq80.leveldb#leveldb-api;0.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.iq80.leveldb#leveldb-api;0.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.iq80.leveldb#leveldb-api;0.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.iq80.leveldb#leveldb-api;0.5[0m
+[0m[[0mdebug[0m] [0m	found org.iq80.leveldb#leveldb-api;0.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.google.guava#guava;12.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.guava#guava;12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.guava#guava;12.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.google.guava#guava;12.0[0m
+[0m[[0mdebug[0m] [0m	found com.google.guava#guava;12.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.google.code.findbugs#jsr305;1.3.9 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.code.findbugs#jsr305;1.3.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.code.findbugs#jsr305;1.3.9[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.google.code.findbugs#jsr305;1.3.9[0m
+[0m[[0mdebug[0m] [0m	found com.google.code.findbugs#jsr305;1.3.9 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-all;1.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.leveldbjni#leveldbjni-all;1.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.leveldbjni#leveldbjni-all;1.7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.leveldbjni#leveldbjni-all;1.7[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.leveldbjni#leveldbjni-all;1.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni;1.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.leveldbjni#leveldbjni;1.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.leveldbjni#leveldbjni;1.7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.leveldbjni#leveldbjni;1.7[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.leveldbjni#leveldbjni;1.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.hawtjni#hawtjni-runtime;1.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.hawtjni#hawtjni-runtime;1.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.hawtjni#hawtjni-runtime;1.8[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.hawtjni#hawtjni-runtime;1.8[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.hawtjni#hawtjni-runtime;1.8 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-osx;1.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.leveldbjni#leveldbjni-osx;1.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.leveldbjni#leveldbjni-osx;1.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.leveldbjni#leveldbjni-osx;1.5[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.leveldbjni#leveldbjni-osx;1.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-linux32;1.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.leveldbjni#leveldbjni-linux32;1.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.leveldbjni#leveldbjni-linux32;1.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.leveldbjni#leveldbjni-linux32;1.5[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.leveldbjni#leveldbjni-linux32;1.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-linux64;1.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.leveldbjni#leveldbjni-linux64;1.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.leveldbjni#leveldbjni-linux64;1.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.leveldbjni#leveldbjni-linux64;1.5[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.leveldbjni#leveldbjni-linux64;1.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-win32;1.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.leveldbjni#leveldbjni-win32;1.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.leveldbjni#leveldbjni-win32;1.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.leveldbjni#leveldbjni-win32;1.5[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.leveldbjni#leveldbjni-win32;1.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-win64;1.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.leveldbjni#leveldbjni-win64;1.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.leveldbjni#leveldbjni-win64;1.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.leveldbjni#leveldbjni-win64;1.5[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.leveldbjni#leveldbjni-win64;1.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.reactivestreams#reactive-streams;0.4.0.M2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.reactivestreams#reactive-streams;0.4.0.M2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.reactivestreams#reactive-streams;0.4.0.M2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.reactivestreams#reactive-streams;0.4.0.M2[0m
+[0m[[0mdebug[0m] [0m	found org.reactivestreams#reactive-streams;0.4.0.M2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [compile][0m
@@ -389,6 +593,131 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [runtime][0m
@@ -533,6 +862,131 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
@@ -680,6 +1134,131 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
@@ -826,6 +1405,131 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [test-internal][0m
@@ -972,6 +1676,131 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies nl.gideondk#sentinel_2.10;0.7.5.1->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->nl.gideondk#sentinel_2.10;0.7.5.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.typesafe.akka#akka-actor_2.10;2.3.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.iq80.leveldb#leveldb;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->org.iq80.leveldb#leveldb-api;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.iq80.leveldb#leveldb;0.5->com.google.guava#guava;12.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.google.guava#guava;12.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni;1.7->org.iq80.leveldb#leveldb-api;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-osx;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-osx;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux32;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-linux64;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-linux64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win32;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win32;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-all;1.7->org.fusesource.leveldbjni#leveldbjni-win64;1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.leveldbjni#leveldbjni-win64;1.5->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-stream-experimental_2.10;0.10->org.reactivestreams#reactive-streams;0.4.0.M2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.10;0.1.0->com.typesafe.akka#akka-stream-experimental_2.10;0.10 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.10;0.1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
@@ -1039,6 +1868,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.3.7!akka-actor_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.propensive#rapture-io_2.10;0.9.0!rapture-io_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] nl.gideondk#sentinel_2.10;0.7.5.1!sentinel_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-stream-experimental_2.10;0.10!akka-stream-experimental_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.propensive#rapture-core_2.10;0.9.0!rapture-core_2.10.jar[0m
@@ -1051,10 +1881,24 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.6!commons-codec.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-iteratees_2.10;2.3.1!play-iteratees_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-stm#scala-stm_2.10;0.7!scala-stm_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6!akka-persistence-experimental_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.reactivestreams#reactive-streams;0.4.0.M2!reactive-streams.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.iq80.leveldb#leveldb;0.5!leveldb.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.leveldbjni#leveldbjni-all;1.7!leveldbjni-all.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.iq80.leveldb#leveldb-api;0.5!leveldb-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.guava#guava;12.0!guava.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.leveldbjni#leveldbjni;1.7!leveldbjni.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.leveldbjni#leveldbjni-osx;1.5!leveldbjni-osx.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.leveldbjni#leveldbjni-linux32;1.5!leveldbjni-linux32.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.leveldbjni#leveldbjni-linux64;1.5!leveldbjni-linux64.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.leveldbjni#leveldbjni-win32;1.5!leveldbjni-win32.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.leveldbjni#leveldbjni-win64;1.5!leveldbjni-win64.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.hawtjni#hawtjni-runtime;1.8!hawtjni-runtime.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1306ms :: artifacts dl 30ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2307ms :: artifacts dl 69ms[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.10;0.1.0 compile produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.10;0.1.0 runtime produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.10;0.1.0 test produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.10-test.xml[0m
@@ -1069,5 +1913,5 @@
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.10;0.1.0 pom produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.10;0.1.0 scala-tool produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.10-scala-tool.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.10;0.1.0 protobuf produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.10-protobuf.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1306ms resolve - 30ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (2307ms resolve - 69ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

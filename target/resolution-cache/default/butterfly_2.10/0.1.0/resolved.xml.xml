@@ -4,7 +4,7 @@
 		module="butterfly_2.10"
 		revision="0.1.0"
 		status="integration"
-		publication="20141118010502"
+		publication="20141118231655"
 	>
 		<description>
 		butterfly
@@ -39,5 +39,6 @@
 		<dependency org="com.typesafe.akka" name="akka-actor_2.10" rev="2.3.7" conf="compile->default(compile)"/>
 		<dependency org="com.propensive" name="rapture-io_2.10" rev="0.9.0" conf="compile->default(compile)"/>
 		<dependency org="nl.gideondk" name="sentinel_2.10" rev="0.7.5.1" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream-experimental_2.10" rev="0.10" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
