@@ -2,6 +2,4 @@
 .idea_modules/
 project/target/
 project/project/
-target/resolution-cache/
-target/scala-2.11/
-target/streams
+target/
