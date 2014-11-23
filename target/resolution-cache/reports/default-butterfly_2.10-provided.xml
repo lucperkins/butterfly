@@ -6,8 +6,8 @@
 		module="butterfly_2.10"
 		revision="0.1.0"
 		conf="provided"
-		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, protobuf"
-		date="20141118231655"/>
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20141121164724"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

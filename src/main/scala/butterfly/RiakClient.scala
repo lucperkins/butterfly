@@ -1,40 +1,36 @@
 package butterfly
 
-import java.net.InetSocketAddress
+import akka.actor.ActorSystem
+import com.basho.riak.protobuf.RiakKvPB.{RpbGetResp, RpbGetReq}
+import com.google.protobuf.ByteString
 
-import akka.actor.Actor
-import akka.util.ByteString
-import butterfly.props.{StoreProperties, FetchProperties}
+import scala.concurrent.Future
 
-object Commands {
-  case class Get(bucket: String, key: String, bucketType: String, props: FetchProperties)
-  case class Put(bucket: String, key: String, bucketType: String, value: ByteString, props: StoreProperties)
-  case class Delete(bucket: String, key: String, bucketType: String)
+case class RiakClient(host: String, port: Int)(implicit val system: ActorSystem)
+  extends RiakRequest with ByteStringConverter {
+  val worker = RiakWorker(host, port)
 
-  case class ListBuckets(bucketType: String)
-  case class ListKeys(bucketType: String, bucket: String)
+  def get(bucket: String, key: String): Future[RpbGetResp] = {
+    println("Running fetch request")
+    val msg = RpbGetReq.newBuilder()
+      .setBucket(ByteString.copyFromUtf8(bucket))
+      .setKey(ByteString.copyFromUtf8(key))
+      .build()
+
+    val req = buildRequest(RiakMessageType.RpbGetReq, protobufToAkka(msg.toByteString))
+    req.map(resp => {
+      println(resp)
+      val rawResponse = akkaToProtobuf(resp.message)
+      RpbGetResp.parseFrom(rawResponse)
+    })
+  }
+
+  def disconnect() = system stop worker.actor
 }
 
 object RiakClient {
-  def apply(host: String = "localhost", port: Int = 8087): RiakClient =
-    new RiakClient(host, port)
-}
-
-class RiakClient(host: String, port: Int) extends Actor {
-  import Commands._
-
-  val address = new InetSocketAddress(host, port)
-
-  def receive: Receive = {
-    case Get(bucket, key, props, bucketType) =>
-      println("GET request")
-    case Put(bucket, key, bucketType, value, props) =>
-      println("PUT request")
-    case Delete(bucket, key, bucketType) =>
-      println("DELETE request")
-    case ListBuckets(bucketType) =>
-      println("LIST_BUCKETS request")
-    case ListKeys(bucketType, bucket) =>
-      println("LIST_KEYS request")
+  def apply(host: String, port: Int, connection: Int = 12)(implicit system: ActorSystem): RiakClient = {
+    val client = RiakClient(host, port)
+    client
   }
 }
