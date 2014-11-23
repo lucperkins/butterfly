@@ -16,14 +16,16 @@ resolvers ++= Seq(
   "Scala Tools Repository (releases)"  at "http://scala-tools.org/repo-releases",
   "gideondk-repo" at "https://raw.github.com/gideondk/gideondk-mvn-repo/master",
   "Sonatype OSS Releases" at "http://oss.sonatype.org/content/repositories/releases/",
-  "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
+  "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots",
+  "spray repo" at "http://repo.spray.io"
 )
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % "2.3.7",
   "nl.gideondk" %% "sentinel" % "0.7.5.1",
   "com.typesafe.akka" %% "akka-stream-experimental" % "0.10",
-  "com.basho.riak.protobuf" % "riak-pb" % "2.0.0.16"
+  "com.basho.riak.protobuf" % "riak-pb" % "2.0.0.16",
+  "io.spray" %%  "spray-json" % "1.3.1"
 )
 
 Revolver.settings

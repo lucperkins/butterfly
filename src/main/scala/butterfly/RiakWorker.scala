@@ -3,7 +3,7 @@ package butterfly
 import akka.actor.ActorSystem
 import akka.io.{LengthFieldFrame, PipePair, PipelineContext, PipelineStage}
 import akka.util.{ByteString, ByteStringBuilder}
-import com.google.protobuf.ByteString.ByteIterator
+import com.google.protobuf.Message
 import com.google.protobuf.{ByteString => BS}
 import nl.gideondk.sentinel.{Client, ConsumerAction, Resolver}
 
@@ -11,10 +11,12 @@ import concurrent.duration._
 
 case class RiakMessage(messageType: RiakMessageType, message: BS)
 
-trait ByteStringConverter {
+trait RiakConverter {
   implicit def akkaToProtobuf(bs: ByteString): BS = BS.copyFrom(bs.asByteBuffer)
-
   implicit def protobufToAkka(bs: BS): ByteString = ByteString.fromArray(bs.toByteArray)
+  implicit def byteStringToString(bs: BS): String = bs.toStringUtf8
+  implicit def stringToByteString(str: String): BS = BS.copyFromUtf8(str)
+  implicit def pbcMessageToAkkaByteString(msg: Message): ByteString = protobufToAkka(msg.toByteString)
 }
 
 object RiakMessageHandler extends Resolver[RiakMessage, RiakMessage] {
@@ -27,7 +29,7 @@ object RiakMessageHandler extends Resolver[RiakMessage, RiakMessage] {
 }
 
 class RiakPipeline extends PipelineStage[PipelineContext, RiakMessage, ByteString, RiakMessage, ByteString]
-  with ByteStringConverter {
+  with RiakConverter {
 
   def apply(ctx: PipelineContext) = new PipePair[RiakMessage, ByteString, RiakMessage, ByteString] {
     implicit val byteOrder = java.nio.ByteOrder.BIG_ENDIAN

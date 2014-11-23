@@ -8,13 +8,13 @@ import nl.gideondk.sentinel.Client
 import scala.concurrent.Future
 import scala.util.{Success, Failure, Try}
 
-trait RiakRequest extends ByteStringConverter {
+trait RiakRequest extends RiakConverter {
   def system: ActorSystem
   def worker: Client[RiakMessage, RiakMessage]
   implicit val dispatcher = system.dispatcher
 
   def buildRequest(messageType: RiakMessageType, message: ByteString): Future[RiakMessage] = {
-    val msg = RiakMessage(messageType, akkaToProtobuf(message))
+    val msg = RiakMessage(messageType, message)
     (worker ? msg).flatMap(resp => validateResponse(resp) match {
       case Failure(err) => Future.failed(err)
       case Success(s)   => Future(s)

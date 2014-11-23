@@ -13,4 +13,5 @@
 [0m[[0mdebug[0m] [0m	gideondk-repo: https://raw.github.com/gideondk/gideondk-mvn-repo/master[0m
 [0m[[0mdebug[0m] [0m	Sonatype OSS Releases: http://oss.sonatype.org/content/repositories/releases/[0m
 [0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: https://oss.sonatype.org/content/repositories/snapshots[0m
+[0m[[0mdebug[0m] [0m	spray repo: http://repo.spray.io[0m
 [0m[[0mdebug[0m] [0mUsing inline dependencies specified in Scala.[0m

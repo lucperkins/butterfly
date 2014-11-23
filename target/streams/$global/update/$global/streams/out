@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.11;0.1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61dcec88[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4240de61[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.11.2[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.2 in sbt-chain[0m
@@ -449,6 +449,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.basho.riak.protobuf#riak-pb;2.0.0.16->org.antlr#antlr-complete;3.5.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.basho.riak.protobuf#riak-pb;2.0.0.16->org.antlr#antlr-complete;3.5.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->com.basho.riak.protobuf#riak-pb;2.0.0.16 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving io.spray#spray-json_2.11;1.3.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.spray#spray-json_2.11;1.3.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.spray#spray-json_2.11;1.3.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: io.spray#spray-json_2.11;1.3.1[0m
+[0m[[0mdebug[0m] [0m	found io.spray#spray-json_2.11;1.3.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.11;0.1.0 [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.11;0.1.0 [compile][0m
@@ -711,6 +727,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#stringtemplate;3.2.1->antlr#antlr;2.7.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#stringtemplate;3.2.1->antlr#antlr;2.7.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->com.basho.riak.protobuf#riak-pb;2.0.0.16 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.11;0.1.0 [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.11;0.1.0 [runtime][0m
@@ -974,6 +1001,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#stringtemplate;3.2.1->antlr#antlr;2.7.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#stringtemplate;3.2.1->antlr#antlr;2.7.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->com.basho.riak.protobuf#riak-pb;2.0.0.16 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.11;0.1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
@@ -1240,6 +1278,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#stringtemplate;3.2.1->antlr#antlr;2.7.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#stringtemplate;3.2.1->antlr#antlr;2.7.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->com.basho.riak.protobuf#riak-pb;2.0.0.16 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.11;0.1.0 [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.11;0.1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
@@ -1505,6 +1554,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#stringtemplate;3.2.1->antlr#antlr;2.7.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#stringtemplate;3.2.1->antlr#antlr;2.7.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->com.basho.riak.protobuf#riak-pb;2.0.0.16 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.11;0.1.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.11;0.1.0 [test-internal][0m
@@ -1770,6 +1830,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#stringtemplate;3.2.1->antlr#antlr;2.7.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.antlr#stringtemplate;3.2.1->antlr#antlr;2.7.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->com.basho.riak.protobuf#riak-pb;2.0.0.16 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.11;1.3.1->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#butterfly_2.11;0.1.0->io.spray#spray-json_2.11;1.3.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.11;0.1.0 [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#butterfly_2.11;0.1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
@@ -1874,6 +1945,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] nl.gideondk#sentinel_2.11;0.7.5.1!sentinel_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-stream-experimental_2.11;0.10!akka-stream-experimental_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.basho.riak.protobuf#riak-pb;2.0.0.16!riak-pb.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-json_2.11;1.3.1!spray-json_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.4!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-iteratees_2.11;2.3.1!play-iteratees_2.11.jar[0m
@@ -1907,7 +1979,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2041ms :: artifacts dl 32ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2369ms :: artifacts dl 41ms[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.11;0.1.0 compile produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.11;0.1.0 runtime produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.11;0.1.0 test produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.11-test.xml[0m
@@ -1921,5 +1993,5 @@
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.11;0.1.0 docs produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.11;0.1.0 pom produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#butterfly_2.11;0.1.0 scala-tool produced in /Users/lucasperkins/scala/butterfly/target/resolution-cache/reports/default-butterfly_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2041ms resolve - 32ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (2369ms resolve - 41ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
