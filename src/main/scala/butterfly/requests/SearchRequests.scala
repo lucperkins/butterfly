@@ -12,11 +12,25 @@ import scala.collection.JavaConverters._
 
 case class SearchField(key: String, value: String)
 case class SearchDoc(bucket: String, bucketType: String, key: String, id: String, value: String)
-case class SearchResult(docs: List[SearchDoc], maxScore: Float, numFound: Int)
+case class SearchResult(docs: List[SearchDoc], maxScore: Float, numFound: Int) {
+  override def toString: String = {
+    val sb = new StringBuilder
+    sb.append("\n")
+    sb.append("Search results:\n")
+    sb.append(s"Max score: $maxScore\n")
+    sb.append(s"Number found: $numFound\n")
+    sb.append("======================\n")
+    docs.map(doc => sb.append("  Result\n" +
+                              "  ------\n" +
+                              s"  Location: /${doc.bucketType}/${doc.bucket}/${doc.key}\n" +
+                              s"  Value: ${doc.value}\n"))
+    sb.toString()
+  }
+}
 
 trait SearchRequests extends RiakRequest with RiakConverter {
   def runSearchQuery(index: String, query: String): Future[RpbSearchQueryResp] = {
-    val msg = RiakMessageBuilder.searchRequest(query, index)
+    val msg = RiakMessageBuilder.searchRequest(index, query)
     val req = buildRequest(RiakMessageType.RpbSearchQueryReq, msg)
     req map { resp =>
       RpbSearchQueryResp.parseFrom(resp.message) match {
@@ -49,7 +63,9 @@ trait SearchRequests extends RiakRequest with RiakConverter {
     }
   }
 
-  def searchAndRetrieveObjects(index: String, query: String): Future[Option[List[Any]]] = {
+  /*
+  def searchAndRetrieveObjects[T(index: String, query: String): Future[Option[List[Any]]] = {
     Future(Some(new ListBuffer[T]().toList))
   }
+  */
 }

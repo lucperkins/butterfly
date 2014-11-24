@@ -1,24 +1,39 @@
 package butterfly.datatypes
 
-object RiakDataType {
-  case object RiakCounter extends RiakDataType
-  case object RiakSet extends RiakDataType
-  case object RiakMap extends RiakDataType
+import com.basho.riak.protobuf.RiakDtPB.DtFetchResp
 
-  val values = Map(
-    1 -> RiakCounter,
-    2 -> RiakSet,
-    3 -> RiakMap
-  )
+import collection.JavaConverters._
 
-  def dataTypeToInt(dt: RiakDataType): Int =
-    getValueByIndex[RiakDataType](dt, values)
+import scala.collection.mutable.ListBuffer
 
-  private def getValueByIndex[T](t: T, m: Map[Int, T]): Int = {
-    m.keys.toList(m.values.toList.indexOf(t))
+abstract class DataType
+
+case class RiakMap(value: List[MapField]) extends DataType
+case class RiakCounter(value: Long) extends DataType
+case class RiakSet(value: Seq[String]) extends DataType
+
+case class MapField(key: String, value: DataType)
+
+/*
+
+trait RiakDataType {
+  def getMap(resp: DtFetchResp): Option[RiakMap] = {
+    responseToDataType[RiakMap](resp)
+  }
+
+  def responseToDataType[T >: DataType](resp: DtFetchResp): Option[T] = {
+    resp.getType.getNumber match {
+      case 1 =>
+        val count = resp.getValue.getCounterValue
+        Some(new RiakCounter(count))
+      case 2 =>
+        val rawList = resp.getValue.getSetValueList.asScala
+        val buffer = new ListBuffer[String]
+        rawList.map(item => buffer ++ item.toString)
+        Some(new RiakSet(buffer.toSeq))
+      case _ => None
+    }
   }
 }
 
-trait RiakDataType {
-
-}
+*/

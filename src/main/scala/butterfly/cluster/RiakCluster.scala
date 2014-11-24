@@ -1,25 +1,71 @@
 package butterfly.cluster
 
-import butterfly.RiakMessage
+import java.util
 
+import akka.actor.ActorSystem
+import butterfly.{RiakWorker, RiakMessage}
+import butterfly.requests.KVRequests
+
+import scala.collection.mutable.{ArrayBuffer, ListBuffer}
 import scala.concurrent.Future
 
-object RiakCluster {
-  def apply(nodes: List[RiakNode]): RiakCluster = RiakCluster(nodes)
-}
+trait NodeManager {
+  def nodeList: ListBuffer[RiakNode]
 
-class RiakCluster(var nodes: collection.mutable.ListBuffer[RiakNode]) {
+  def addNodes(newNodes: List[RiakNode]) = {
+    nodeList.appendAll(newNodes)
+  }
+
   def addNode(node: RiakNode) = {
-    nodes += node
+    nodeList.append(node)
   }
 
   def removeNode(node: RiakNode) = {
-    nodes -= node
+    nodeList -= node
   }
 
-  private def selectRandomtNode(): RiakNode = {
-    val nodeCount = nodes.length
+  def selectRandomtNode(): RiakNode = {
+    val nodeCount = nodeList.length
     val random = new scala.util.Random().nextInt(nodeCount + 1)
-    nodes(random)
+    nodeList(random)
+  }
+
+  def numberOfNodes(): Int = nodeList.toList.length
+}
+
+sealed trait ClusterState
+
+object ClusterState {
+  case object CREATED extends ClusterState
+  case object RUNNING extends ClusterState
+  case object SHUTTING_DOWN extends ClusterState
+  case object SHUT_DOWN extends ClusterState
+}
+
+object RiakCluster {
+  def apply(): RiakCluster = {
+    new RiakCluster
+  }
+
+  def apply(node: RiakNode): RiakCluster = {
+    val cluster = new RiakCluster
+    cluster.addNode(node)
+    cluster
+  }
+
+  def apply(nodes: List[RiakNode]): RiakCluster = {
+    val cluster = new RiakCluster
+    cluster.addNodes(nodes)
+    cluster
+  }
+}
+
+class RiakCluster extends NodeManager {
+  import ClusterState._
+
+  def nodeList = new ListBuffer[RiakNode]
+
+  def shutDown() = {
+    state = ClusterState.SHUTTING_DOWN
   }
 }
