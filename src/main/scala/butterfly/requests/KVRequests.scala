@@ -5,6 +5,7 @@ import butterfly.conflict.RiakResolver
 import butterfly.{RiakConverter, RiakRequest, RiakMessageType}
 import com.basho.riak.protobuf.RiakKvPB
 import com.basho.riak.protobuf.RiakKvPB.{RpbContent, RpbPutResp, RpbGetReq, RpbGetResp}
+import com.google.protobuf.ByteString
 import spray.json._
 
 
@@ -21,10 +22,13 @@ trait KVRequests extends RiakRequest with RiakConverter {
     })
   }
 
-  def fetchAsString(bucket: String, key: String, bucketType: String = "default"): Future[String] = {
+  def fetchAsString(bucket: String, key: String, bucketType: String = "default"): Future[Option[String]] = {
     fetch(bucket, key, bucketType) map {
-      case res: RpbGetResp => res.getContent(0).getValue.toStringUtf8
-      case _               => throw new Exception("Not found")
+      case res: RpbGetResp =>
+        val str = res.getContent(0).getValue.toStringUtf8
+        Some(str)
+      case _ =>
+        None
     }
   }
 
@@ -45,9 +49,9 @@ trait KVRequests extends RiakRequest with RiakConverter {
     }
   }
 
-  def store[T](t: T, bucket: String, key: String, bucketType: String = "default")
+  def store[T](t: T, bucket: String, key: String, bucketType: String, vClock: Option[ByteString])
               (implicit format: JsonFormat[T]): Future[Boolean] = {
-    val msg = RiakMessageBuilder.storeRequest(t, bucket, key, bucketType)
+    val msg = RiakMessageBuilder.storeRequest(t, bucket, key, bucketType, vClock.map(v => v))
     val req = buildRequest(RiakMessageType.RpbPutReq, msg)
     req map { resp =>
       RpbPutResp.parseFrom(resp.message) match {
@@ -58,6 +62,7 @@ trait KVRequests extends RiakRequest with RiakConverter {
     }
   }
 
+  /*
   implicit def resolveSiblingContent[T](message: RpbGetResp)
                                        (implicit resolver: RiakResolver[T], format: JsonFormat[T]): Option[T] = {
     val siblings = message.getContentList
@@ -88,4 +93,5 @@ trait KVRequests extends RiakRequest with RiakConverter {
     })
     lb.toList
   }
+  */
 }

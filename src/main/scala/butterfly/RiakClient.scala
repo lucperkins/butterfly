@@ -1,14 +1,11 @@
 package butterfly
 
 import akka.actor.ActorSystem
-import butterfly.requests.KVRequests
+import butterfly.requests.{KVRequests, SearchRequests}
 import com.basho.riak.protobuf.RiakKvPB.{RpbGetResp, RpbGetReq}
-import com.google.protobuf.ByteString
-
-import scala.concurrent.Future
 
 case class RiakClient(host: String, port: Int)(implicit val system: ActorSystem)
-  extends KVRequests {
+  extends KVRequests with SearchRequests {
   val worker = RiakWorker(host, port)
   def disconnect() = system stop worker.actor
 }

@@ -19,6 +19,10 @@ object RiakMessageType {
   // List keys
   case object RpbListKeysReq extends RiakMessageType
   case object RpbListKeysResp extends RiakMessageType
+  // Search
+  case object RpbSearchQueryReq extends RiakMessageType
+  case object RpbSearchQueryResp extends RiakMessageType
+
 
   val values = Map(
     0 -> RpbErrResp,
@@ -30,7 +34,9 @@ object RiakMessageType {
     15 -> RpbListBucketsReq,
     16 -> RpbListBucketsResp,
     17 -> RpbListKeysReq,
-    18 -> RpbListKeysResp
+    18 -> RpbListKeysResp,
+    27 -> RpbSearchQueryReq,
+    28 -> RpbSearchQueryResp
   )
 
   def messageTypeToInt(mt: RiakMessageType): Int = {
