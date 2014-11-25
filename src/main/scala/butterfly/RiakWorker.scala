@@ -57,6 +57,8 @@ trait RiakStages {
   val stages = new RiakPipeline >> new LengthFieldFrame(1024 * 1024 * 200, lengthIncludesHeader = false)
 }
 
+class RiakWorker
+
 object RiakWorker extends RiakStages {
   def apply(host: String, port: Int, numberOfWorkers: Int = 4)(implicit system: ActorSystem) = {
     Client.randomRouting(

@@ -10,62 +10,21 @@ import scala.collection.mutable.{ArrayBuffer, ListBuffer}
 import scala.concurrent.Future
 
 trait NodeManager {
-  def nodeList: ListBuffer[RiakNode]
-
-  def addNodes(newNodes: List[RiakNode]) = {
-    nodeList.appendAll(newNodes)
-  }
-
-  def addNode(node: RiakNode) = {
-    nodeList.append(node)
-  }
-
-  def removeNode(node: RiakNode) = {
-    nodeList -= node
-  }
-
-  def selectRandomtNode(): RiakNode = {
-    val nodeCount = nodeList.length
-    val random = new scala.util.Random().nextInt(nodeCount + 1)
-    nodeList(random)
-  }
-
-  def numberOfNodes(): Int = nodeList.toList.length
+  def init(nodes: List[RiakNode]): Unit
+  def executeOnNode(operation: RiakMessage => RiakMessage, previousNode: RiakNode): Unit
+  def addNote(node: RiakNode): Unit
+  def removeNode(node: RiakNode): Boolean
 }
 
-sealed trait ClusterState
-
-object ClusterState {
-  case object CREATED extends ClusterState
-  case object RUNNING extends ClusterState
-  case object SHUTTING_DOWN extends ClusterState
-  case object SHUT_DOWN extends ClusterState
+class DefaultNodeManager extends NodeManager {
+  def init(nodes: List[RiakNode]): Unit = println("Init")
+  def executeOnNode(operation: RiakMessage => RiakMessage, previousNode: RiakNode): Unit = println("Executing")
+  def addNote(node: RiakNode): Unit = println("Adding node")
+  def removeNode(node: RiakNode): Boolean = true
 }
 
-object RiakCluster {
-  def apply(): RiakCluster = {
-    new RiakCluster
-  }
-
-  def apply(node: RiakNode): RiakCluster = {
-    val cluster = new RiakCluster
-    cluster.addNode(node)
-    cluster
-  }
-
-  def apply(nodes: List[RiakNode]): RiakCluster = {
-    val cluster = new RiakCluster
-    cluster.addNodes(nodes)
-    cluster
-  }
+trait NodeStateListener {
+  def nodeStateChanged(node: RiakNode, state: RiakNode.State)
 }
 
-class RiakCluster extends NodeManager {
-  import ClusterState._
-
-  def nodeList = new ListBuffer[RiakNode]
-
-  def shutDown() = {
-    state = ClusterState.SHUTTING_DOWN
-  }
-}
+class

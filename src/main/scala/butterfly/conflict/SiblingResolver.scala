@@ -4,7 +4,7 @@ trait RiakTimestamped {
   def timeUpdated: Long
 }
 
-abstract class RiakResolver[T] {
+abstract class SiblingResolver[T] {
   def resolve(siblings: List[T]): T
 
   def resolveByTimestamp(siblings: List[RiakTimestamped]): RiakTimestamped = {

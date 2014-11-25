@@ -30,15 +30,7 @@ class RiakException(message: String) extends Exception
 object Main extends App {
   implicit val system = ActorSystem("main-riak-butterfly-system")
 
-  val HOST = "127.0.0.1"
-  val node1 = RiakNode(HOST, 10017)
-  val node2 = RiakNode(HOST, 10027)
-  val node3 = RiakNode(HOST, 10037)
+  val client = RiakNode("localhost", 10017)
 
-  val cluster = RiakCluster()
-  cluster.addNode(node1)
-  cluster.addNodes(List(node2, node3))
-
-  cluster.removeNode(node1)
-  println(cluster.numberOfNodes)
+  client.store[Person]()
 }

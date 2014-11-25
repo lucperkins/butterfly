@@ -1,14 +1,14 @@
 package butterfly.requests
 
 import butterfly.RiakMessage
-import butterfly.conflict.RiakResolver
+import butterfly.conflict.{SiblingResolver}
 import butterfly.{RiakConverter, RiakRequest, RiakMessageType}
 import com.basho.riak.protobuf.RiakKvPB
 import com.basho.riak.protobuf.RiakKvPB.{RpbContent, RpbPutResp, RpbGetReq, RpbGetResp}
 import com.google.protobuf.ByteString
 import spray.json._
 
-
+import scala.collection.JavaConverters._
 import scala.collection.mutable.ListBuffer
 import scala.concurrent.Future
 
@@ -33,19 +33,57 @@ trait KVRequests extends RiakRequest with RiakConverter {
   }
 
   def get[T](bucket: String, key: String, bucketType: String = "default")
-            (implicit format: JsonFormat[T]): Future[Option[T]] =
+            (implicit resolver: SiblingResolver[T], format: JsonFormat[T]): Future[Option[T]] =
   {
     val msg = RiakMessageBuilder.getRequest(bucket, key, bucketType)
     val req = buildRequest(RiakMessageType.RpbGetReq, msg)
     req map { resp =>
       val response = RpbGetResp.parseFrom(resp.message)
-      println("Response parsed")
+      hasSiblings(response) match {
+        case false =>
+          siblingToObject(response.getContent(0))
+        case true =>
+          val siblingList = response.getContentList
+          contentListToObjectList[T](siblingList) map (x => x) match {
+            case Some(siblings) => resolver.resolve(siblings)
+            case None           => None
+          }
+      }
+
       val jsString = response.getContent(0).getValue.toStringUtf8
-      println(s"String: $jsString")
       jsString.parseJson.asJsObject.convertTo[T] match {
         case t => Some(t)
         case _ => None
       }
+    }
+  }
+
+  def hasSiblings(response: RpbGetResp): Boolean = {
+    response.getContentList.size > 1
+  }
+
+  def contentListToObjectList[T](siblingValues: java.util.List[RpbContent]): Option[List[T]] = {
+    val buffer = new ListBuffer[T]
+    siblingValues.asScala.map(sib => {
+      siblingToObject(sib) match {
+        case t: T => buffer += t
+        case _    => None
+      }
+    })
+    Some(buffer.toList)
+  }
+
+  def siblingToObject[T](sibling: RpbContent)
+                        (implicit format: JsonFormat[T]): Option[T] = {
+   sibling.getContentType.toString == "application/json" match {
+      case true =>
+        val json = sibling.getValue.toStringUtf8
+        json.toJson match {
+          case t: T => Some(t)
+          case _  => None
+        }
+      case false =>
+        None
     }
   }
 
@@ -62,6 +100,25 @@ trait KVRequests extends RiakRequest with RiakConverter {
     }
   }
 
+  def safeUpdate[T](t: T, bucket: String, key: String, bucketType: String)
+                   (implicit format: JsonFormat[T]): Future[Boolean] = {
+    getVClock(bucket, key, bucketType) map {
+      case Some(v) =>
+        store(t, bucket, key, bucketType, Some(v))
+        true
+      case None    => false
+    }
+  }
+
+  def getVClock(bucket: String, key: String, bucketType: String): Future[Option[ByteString]] = {
+    val msg = RiakMessageBuilder.getRequest(bucket, key, bucketType)
+    val req = buildRequest(RiakMessageType.RpbGetReq, msg)
+    req map { resp =>
+      val responseMessage = RpbGetResp.parseFrom(resp.message)
+      val vClock = responseMessage.getVclock
+      Some(vClock)
+    }
+  }
   /*
   implicit def resolveSiblingContent[T](message: RpbGetResp)
                                        (implicit resolver: RiakResolver[T], format: JsonFormat[T]): Option[T] = {

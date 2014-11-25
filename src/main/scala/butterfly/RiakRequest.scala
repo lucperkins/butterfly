@@ -25,8 +25,8 @@ trait RiakRequest extends RiakConverter {
 
   def validateResponse(resp: RiakMessage): Try[RiakMessage] = {
     if (RiakMessageType.messageTypeToInt(resp.messageType) == 0) {
-      val pbcMessage = RpbErrorResp.parseFrom(resp.message).getErrmsg.toStringUtf8
-      Failure(new Exception(pbcMessage))
+      val errorMessage = RpbErrorResp.parseFrom(resp.message).getErrmsg.toStringUtf8
+      Failure(new Exception(errorMessage))
     } else {
       Success(resp)
     }
