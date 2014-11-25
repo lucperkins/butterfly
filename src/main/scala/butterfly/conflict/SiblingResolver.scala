@@ -5,20 +5,9 @@ trait RiakTimestamped {
 }
 
 abstract class SiblingResolver[T] {
-  def resolve(siblings: List[T]): T
+  def resolver(t1: T, t2: T): T
 
-  def resolveByTimestamp(siblings: List[RiakTimestamped]): RiakTimestamped = {
-    def moreRecent(a: RiakTimestamped, b: RiakTimestamped): RiakTimestamped = {
-      if (a.timeUpdated > b.timeUpdated) a else b
-    }
-    siblings.reduce(moreRecent)
-  }
-
-  def eliminate(siblings: List[T], eliminator: T => Boolean): List[T] = {
-    siblings.filter(eliminator)
-  }
-
-  def eliminateAndResolve(siblings: List[T], eliminator: T => Boolean) = {
-    resolve(eliminate(siblings, eliminator))
+  implicit def resolve(siblings: List[T]): T = {
+    siblings.reduce(resolver)
   }
 }

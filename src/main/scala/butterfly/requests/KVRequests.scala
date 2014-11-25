@@ -1,10 +1,8 @@
 package butterfly.requests
 
-import butterfly.RiakMessage
-import butterfly.conflict.{SiblingResolver}
-import butterfly.{RiakConverter, RiakRequest, RiakMessageType}
-import com.basho.riak.protobuf.RiakKvPB
-import com.basho.riak.protobuf.RiakKvPB.{RpbContent, RpbPutResp, RpbGetReq, RpbGetResp}
+import butterfly.conflict.SiblingResolver
+import butterfly.{RiakConverter, RiakMessageType, RiakRequest}
+import com.basho.riak.protobuf.RiakKvPB.{RpbContent, RpbGetResp, RpbPutResp}
 import com.google.protobuf.ByteString
 import spray.json._
 
@@ -119,6 +117,7 @@ trait KVRequests extends RiakRequest with RiakConverter {
       Some(vClock)
     }
   }
+
   /*
   implicit def resolveSiblingContent[T](message: RpbGetResp)
                                        (implicit resolver: RiakResolver[T], format: JsonFormat[T]): Option[T] = {

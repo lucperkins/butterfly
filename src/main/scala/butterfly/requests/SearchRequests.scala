@@ -1,15 +1,6 @@
 package butterfly.requests
 
-import butterfly.{RiakException, RiakMessageType, RiakConverter, RiakRequest}
-import com.basho.riak.protobuf.RiakKvPB.RpbIndexResp
-import com.basho.riak.protobuf.RiakSearchPB.{RpbSearchDoc, RpbSearchQueryResp}
-import com.google.protobuf.ByteString
-
-import scala.collection.mutable.ListBuffer
-import scala.concurrent.Future
-import scala.collection.JavaConversions._
-import scala.collection.JavaConverters._
-
+/*
 case class SearchField(key: String, value: String)
 case class SearchDoc(bucket: String, bucketType: String, key: String, id: String, value: String)
 case class SearchResult(docs: List[SearchDoc], maxScore: Float, numFound: Int) {
@@ -69,3 +60,4 @@ trait SearchRequests extends RiakRequest with RiakConverter {
   }
   */
 }
+*/

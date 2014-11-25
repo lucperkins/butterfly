@@ -5,7 +5,7 @@ import butterfly.RiakWorker
 import butterfly.requests.{KVRequests, SearchRequests}
 
 class RiakNode(host: String, port: Int)(implicit val system: ActorSystem)
-  extends KVRequests with SearchRequests {
+  extends KVRequests {
 
   val worker = RiakWorker(host, port)
   def disconnect() = system stop worker.actor

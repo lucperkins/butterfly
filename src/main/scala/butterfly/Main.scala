@@ -1,36 +1,24 @@
 package butterfly
 
-import akka.actor.ActorSystem
-import butterfly.cluster.{RiakNode, RiakCluster}
-import butterfly.conflict.RiakResolver
-import butterfly.datatypes.RiakMap
-import butterfly.requests.KVRequests
-import com.basho.riak.protobuf.RiakKvPB.RpbGetResp
-import spray.json.DefaultJsonProtocol._
-
-import concurrent.ExecutionContext.Implicits.global
-import scala.concurrent.Future
-
 case class Person(name: String, age: Int)
 
-/*
-trait Updates extends RiakRequest with KVRequests {
-  def safeUpdate[T](t: T, bucket: String, key: String, bucketType: String): Future[Unit] = {
-    fetch(bucket, key, bucketType) map {
-      case resp: RpbGetResp =>
-        val vClock = resp.getVclock
-        store[T](t, bucket, key, bucketType, Some(vClock)) map (x => ())
-    }
+abstract class SiblingResolver[T] {
+  def resolver(t1: T, t2: T): T
+
+  def resolve(siblings: List[T]): T = siblings.reduce(resolver)
+}
+
+class PersonResolver extends SiblingResolver[Person] {
+  def resolver(p1: Person, p2: Person): Person = {
+    if (p1.age > p2.age) p1 else p2
   }
 }
-*/
-
-class RiakException(message: String) extends Exception
 
 object Main extends App {
-  implicit val system = ActorSystem("main-riak-butterfly-system")
-
-  val client = RiakNode("localhost", 10017)
-
-  client.store[Person]()
+  val luc = Person("Luc", 32)
+  val bill = Person("Bill", 97)
+  val people = List(luc, bill)
+  val resolver = new PersonResolver
+  val person = resolver.resolve(people)
+  System.out.println(person.age)
 }

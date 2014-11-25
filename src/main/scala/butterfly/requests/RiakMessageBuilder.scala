@@ -1,7 +1,7 @@
 package butterfly.requests
 
 import butterfly.RiakConverter
-import com.basho.riak.protobuf.RiakKvPB.{RpbContent, RpbPutReq, RpbGetReq}
+import com.basho.riak.protobuf.RiakKvPB.{RpbContent, RpbGetReq, RpbPutReq}
 import com.basho.riak.protobuf.RiakSearchPB.RpbSearchQueryReq
 import com.google.protobuf.ByteString
 import spray.json._

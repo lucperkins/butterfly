@@ -26,5 +26,3 @@ class DefaultNodeManager extends NodeManager {
 trait NodeStateListener {
   def nodeStateChanged(node: RiakNode, state: RiakNode.State)
 }
-
-class
