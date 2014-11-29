@@ -25,7 +25,8 @@ libraryDependencies ++= Seq(
   "nl.gideondk" %% "sentinel" % "0.7.5.1",
   "com.typesafe.akka" %% "akka-stream-experimental" % "0.10",
   "com.basho.riak.protobuf" % "riak-pb" % "2.0.0.16",
-  "io.spray" %%  "spray-json" % "1.3.1"
+  "io.spray" %%  "spray-json" % "1.3.1",
+  "org.scalatest" %% "scalatest" % "2.2.1"
 )
 
 Revolver.settings

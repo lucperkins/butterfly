@@ -1,6 +1,13 @@
-package butterfly.requests
+package butterfly.yokozuna
 
-/*
+import butterfly.requests.RiakMessageBuilder
+import butterfly.{RiakMessageType, RiakConverter, RiakRequest}
+import com.basho.riak.protobuf.RiakSearchPB.RpbSearchQueryResp
+
+import scala.collection.mutable.ListBuffer
+import scala.concurrent.Future
+import scala.collection.JavaConverters._
+
 case class SearchField(key: String, value: String)
 case class SearchDoc(bucket: String, bucketType: String, key: String, id: String, value: String)
 case class SearchResult(docs: List[SearchDoc], maxScore: Float, numFound: Int) {
@@ -12,9 +19,9 @@ case class SearchResult(docs: List[SearchDoc], maxScore: Float, numFound: Int) {
     sb.append(s"Number found: $numFound\n")
     sb.append("======================\n")
     docs.map(doc => sb.append("  Result\n" +
-                              "  ------\n" +
-                              s"  Location: /${doc.bucketType}/${doc.bucket}/${doc.key}\n" +
-                              s"  Value: ${doc.value}\n"))
+      "  ------\n" +
+      s"  Location: /${doc.bucketType}/${doc.bucket}/${doc.key}\n" +
+      s"  Value: ${doc.value}\n"))
     sb.toString()
   }
 }
@@ -26,7 +33,7 @@ trait SearchRequests extends RiakRequest with RiakConverter {
     req map { resp =>
       RpbSearchQueryResp.parseFrom(resp.message) match {
         case r: RpbSearchQueryResp => r
-        case _ => throw new RiakException("Something went wrong")
+        case _ => throw new Exception("Something went wrong")
       }
     }
   }
@@ -35,7 +42,7 @@ trait SearchRequests extends RiakRequest with RiakConverter {
     runSearchQuery(index, query) map {
       case resp: RpbSearchQueryResp =>
         val docsBuffer = new ListBuffer[SearchDoc]
-        val rawDocsList = resp.getDocsList
+        val rawDocsList = resp.getDocsList.asScala
 
         rawDocsList.map(searchDoc => {
           val fieldsList = searchDoc.getFieldsList
@@ -53,11 +60,4 @@ trait SearchRequests extends RiakRequest with RiakConverter {
       case _ => None
     }
   }
-
-  /*
-  def searchAndRetrieveObjects[T(index: String, query: String): Future[Option[List[Any]]] = {
-    Future(Some(new ListBuffer[T]().toList))
-  }
-  */
 }
-*/

@@ -2,9 +2,9 @@ package butterfly.cluster
 
 import akka.actor.ActorSystem
 import butterfly.RiakWorker
-import butterfly.requests.{KVRequests, SearchRequests}
+import butterfly.requests.{KVRequests}
 
-class RiakNode(host: String, port: Int)(implicit val system: ActorSystem)
+case class RiakNode(host: String, port: Int)(implicit val system: ActorSystem)
   extends KVRequests {
 
   val worker = RiakWorker(host, port)

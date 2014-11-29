@@ -1,20 +1,17 @@
 package butterfly
 
-import akka.actor.ActorSystem
 import com.basho.riak.protobuf.RiakPB.RpbErrorResp
-import com.basho.riak.protobuf._
 import nl.gideondk.sentinel.Client
-import butterfly.RiakMessageType
 
-import scala.concurrent.Future
+import scala.concurrent.{ExecutionContext, Future}
 import scala.util.{Try, Success, Failure}
 
-class RiakOperation(implicit val worker: Client[RiakMessage, RiakMessage], system: ActorSystem) {
-  def execute[S <: RiakMessage, R <: RiakMessage](message: S): Future[R] = {
+class RiakOperation(implicit val worker: Client[RiakMessage, RiakMessage], implicit val ec: ExecutionContext) {
+  def execute(message: RiakMessage): Future[RiakMessage] = {
     val msg = RiakMessage(message.messageType, message.message)
     (worker ? msg).flatMap(resp => validateResponse(resp) match {
       case Failure(err) => Future.failed(err)
-      case Success(message) => Future(message)
+      case Success(m)   => Future(m)
     })
   }
 
@@ -26,8 +23,4 @@ class RiakOperation(implicit val worker: Client[RiakMessage, RiakMessage], syste
       Success(response)
     }
   }
-}
-
-class Get extends RiakOperation {
-
 }
