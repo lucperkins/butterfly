@@ -1,6 +1,6 @@
 package butterfly.yokozuna
 
-import butterfly.requests.RiakMessageBuilder
+import butterfly.requests.{PolyRequests, KVRequests, RiakMessageBuilder}
 import butterfly.{RiakMessageType, RiakConverter, RiakRequest}
 import com.basho.riak.protobuf.RiakSearchPB.RpbSearchQueryResp
 
@@ -26,7 +26,7 @@ case class SearchResult(docs: List[SearchDoc], maxScore: Float, numFound: Int) {
   }
 }
 
-trait SearchRequests extends RiakRequest with RiakConverter {
+trait SearchRequests extends RiakRequest with PolyRequests with RiakConverter {
   def runSearchQuery(index: String, query: String): Future[RpbSearchQueryResp] = {
     val msg = RiakMessageBuilder.searchRequest(index, query)
     val req = buildRequest(RiakMessageType.RpbSearchQueryReq, msg)
@@ -58,6 +58,24 @@ trait SearchRequests extends RiakRequest with RiakConverter {
         val searchResult = new SearchResult(docsBuffer.toList, resp.getMaxScore, resp.getDocsCount)
         Some(searchResult)
       case _ => None
+    }
+  }
+
+  def resultToLocationsList(result: SearchResult): List[Location] = {
+    val locList = new ListBuffer[Location]
+    result.docs.map(doc => {
+      locList += new Location(doc.bucket, doc.key, doc.bucketType)
+    })
+    locList.toList
+  }
+
+  def searchAndReturnObjects[T](index: String, query: String): Future[Option[List[T]]] = {
+    search(index, query) map {
+      case Some(result) =>
+        val locations = resultToLocationsList(result)
+        getMany[T](locations) map (x => x)
+      case None =>
+        None
     }
   }
 }
