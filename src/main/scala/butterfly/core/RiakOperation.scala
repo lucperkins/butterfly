@@ -1,10 +1,10 @@
-package butterfly
+package butterfly.core
 
 import com.basho.riak.protobuf.RiakPB.RpbErrorResp
 import nl.gideondk.sentinel.Client
 
 import scala.concurrent.{ExecutionContext, Future}
-import scala.util.{Try, Success, Failure}
+import scala.util.{Failure, Success, Try}
 
 class RiakOperation(implicit val worker: Client[RiakMessage, RiakMessage], implicit val ec: ExecutionContext) {
   def execute(message: RiakMessage): Future[RiakMessage] = {

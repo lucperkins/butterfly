@@ -1,6 +1,6 @@
 package butterfly.requests
 
-import butterfly.RiakRequest
+import butterfly.core.RiakRequest
 import butterfly.yokozuna.Location
 import scala.collection.mutable.ListBuffer
 import scala.concurrent.Future

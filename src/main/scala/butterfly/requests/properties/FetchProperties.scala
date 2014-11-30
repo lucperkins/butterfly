@@ -1,4 +1,4 @@
-package butterfly.requests
+package butterfly.requests.properties
 
 import com.google.protobuf.ByteString
 

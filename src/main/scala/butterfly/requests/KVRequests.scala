@@ -1,6 +1,6 @@
 package butterfly.requests
 
-import butterfly.{RiakConverter, RiakMessageType, RiakRequest}
+import butterfly.core.{RiakMessageBuilder, RiakConverter, RiakRequest, RiakMessageType}
 import com.basho.riak.protobuf.RiakKvPB.{RpbContent, RpbGetResp, RpbPutResp}
 import com.google.protobuf.ByteString
 import spray.json._
@@ -19,7 +19,7 @@ abstract class SiblingResolver[T] {
 
 trait KVRequests extends RiakRequest with RiakConverter {
   def fetch(bucket: String, key: String, bucketType: String = "default"): Future[RpbGetResp] = {
-    val msg = RiakMessageBuilder.getRequest(bucket, key, bucketType)
+    val msg = RiakMessageBuilder.Get(bucket, key, bucketType)
 
     val req = buildRequest(RiakMessageType.RpbGetReq, msg)
     req.map(resp => {
@@ -30,7 +30,7 @@ trait KVRequests extends RiakRequest with RiakConverter {
   def get[T](bucket: String, key: String, bucketType: String = "default")
             (implicit resolver: SiblingResolver[T], format: JsonFormat[T]): Future[Option[T]] =
   {
-    val msg = RiakMessageBuilder.getRequest(bucket, key, bucketType)
+    val msg = RiakMessageBuilder.Get(bucket, key, bucketType)
     val req = buildRequest(RiakMessageType.RpbGetReq, msg)
     req map { resp =>
       val response = RpbGetResp.parseFrom(resp.message)
@@ -73,7 +73,7 @@ trait KVRequests extends RiakRequest with RiakConverter {
 
   def store[T](t: T, bucket: String, key: String, bucketType: String, vClock: Option[ByteString])
               (implicit format: JsonFormat[T]): Future[Boolean] = {
-    val msg = RiakMessageBuilder.storeRequest(t, bucket, key, bucketType, vClock.map(v => v))
+    val msg = RiakMessageBuilder.UnsafeStore(t, bucket, key, bucketType, vClock.map(v => v))
     val req = buildRequest(RiakMessageType.RpbPutReq, msg)
     req map { resp =>
       RpbPutResp.parseFrom(resp.message) match {
@@ -95,7 +95,7 @@ trait KVRequests extends RiakRequest with RiakConverter {
   }
 
   def getVClock(bucket: String, key: String, bucketType: String): Future[Option[ByteString]] = {
-    val msg = RiakMessageBuilder.getRequest(bucket, key, bucketType)
+    val msg = RiakMessageBuilder.Get(bucket, key, bucketType)
     val req = buildRequest(RiakMessageType.RpbGetReq, msg)
     req map { resp =>
       val responseMessage = RpbGetResp.parseFrom(resp.message)

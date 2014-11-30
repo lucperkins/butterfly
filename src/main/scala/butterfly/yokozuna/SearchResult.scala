@@ -1,7 +1,7 @@
 package butterfly.yokozuna
 
-import butterfly.requests.{PolyRequests, KVRequests, RiakMessageBuilder}
-import butterfly.{RiakMessageType, RiakConverter, RiakRequest}
+import butterfly.core.{RiakMessageBuilder, RiakConverter, RiakRequest, RiakMessageType}
+import butterfly.requests.{PolyRequests, KVRequests}
 import com.basho.riak.protobuf.RiakSearchPB.RpbSearchQueryResp
 
 import scala.collection.mutable.ListBuffer

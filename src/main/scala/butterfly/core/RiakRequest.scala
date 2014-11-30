@@ -1,4 +1,4 @@
-package butterfly
+package butterfly.core
 
 import akka.actor.ActorSystem
 import akka.util.ByteString
@@ -6,7 +6,7 @@ import com.basho.riak.protobuf.RiakPB.RpbErrorResp
 import nl.gideondk.sentinel.Client
 
 import scala.concurrent.Future
-import scala.util.{Success, Failure, Try}
+import scala.util.{Failure, Success, Try}
 
 trait RiakRequest extends RiakConverter {
   def system: ActorSystem

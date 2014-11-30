@@ -3,7 +3,8 @@ package butterfly.cluster
 import java.util
 
 import akka.actor.ActorSystem
-import butterfly.{RiakWorker, RiakMessage}
+import butterfly.RiakMessage
+import butterfly.core.RiakMessage
 import butterfly.requests.KVRequests
 
 import scala.collection.mutable.{ArrayBuffer, ListBuffer}

@@ -1,4 +1,4 @@
-package butterfly
+package butterfly.core
 
 sealed trait RiakMessageType
 
@@ -19,10 +19,17 @@ object RiakMessageType {
   // List keys
   case object RpbListKeysReq extends RiakMessageType
   case object RpbListKeysResp extends RiakMessageType
+  // Bucket properties
+  case object RpbGetBucketReq extends RiakMessageType
+  case object RpbGetBucketResp extends RiakMessageType
   // Search
   case object RpbSearchQueryReq extends RiakMessageType
   case object RpbSearchQueryResp extends RiakMessageType
-
+  // Riak Data Types
+  case object DtFetchReq extends RiakMessageType
+  case object DtFetchResp extends RiakMessageType
+  case object DtUpdateReq extends RiakMessageType
+  case object DtUpateResp extends RiakMessageType
 
   val values = Map(
     0 -> RpbErrResp,
@@ -35,8 +42,14 @@ object RiakMessageType {
     16 -> RpbListBucketsResp,
     17 -> RpbListKeysReq,
     18 -> RpbListKeysResp,
+    19 -> RpbGetBucketReq,
+    20 -> RpbGetBucketResp,
     27 -> RpbSearchQueryReq,
-    28 -> RpbSearchQueryResp
+    28 -> RpbSearchQueryResp,
+    80 -> DtFetchReq,
+    81 -> DtFetchResp,
+    82 -> DtUpdateReq,
+    83 -> DtUpateResp
   )
 
   def messageTypeToInt(mt: RiakMessageType): Int = {
