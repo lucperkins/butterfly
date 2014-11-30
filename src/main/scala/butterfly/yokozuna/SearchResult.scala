@@ -1,15 +1,17 @@
 package butterfly.yokozuna
 
-import butterfly.core.{RiakMessageBuilder, RiakConverter, RiakRequest, RiakMessageType}
-import butterfly.requests.{PolyRequests, KVRequests}
-import com.basho.riak.protobuf.RiakSearchPB.RpbSearchQueryResp
-
+import scala.collection.JavaConverters._
 import scala.collection.mutable.ListBuffer
 import scala.concurrent.Future
-import scala.collection.JavaConverters._
+
+import butterfly.core.{RiakConverter, RiakMessageBuilder, RiakMessageType, RiakRequest}
+import butterfly.requests.PolyRequests
+import com.basho.riak.protobuf.RiakSearchPB.RpbSearchQueryResp
 
 case class SearchField(key: String, value: String)
+
 case class SearchDoc(bucket: String, bucketType: String, key: String, id: String, value: String)
+
 case class SearchResult(docs: List[SearchDoc], maxScore: Float, numFound: Int) {
   override def toString: String = {
     val sb = new StringBuilder
@@ -28,7 +30,7 @@ case class SearchResult(docs: List[SearchDoc], maxScore: Float, numFound: Int) {
 
 trait SearchRequests extends RiakRequest with PolyRequests with RiakConverter {
   def runSearchQuery(index: String, query: String): Future[RpbSearchQueryResp] = {
-    val msg = RiakMessageBuilder.searchRequest(index, query)
+    val msg = RiakMessageBuilder.Search(index, query)
     val req = buildRequest(RiakMessageType.RpbSearchQueryReq, msg)
     req map { resp =>
       RpbSearchQueryResp.parseFrom(resp.message) match {
