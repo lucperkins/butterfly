@@ -71,26 +71,28 @@ trait KVRequests extends RiakRequest with RiakConverter {
     tList.toList
   }
 
-  def store[T](t: T, bucket: String, key: String, bucketType: String, vClock: Option[ByteString])
-              (implicit format: JsonFormat[T]): Future[Boolean] = {
-    val msg = RiakMessageBuilder.UnsafeStore(t, bucket, key, bucketType, vClock.map(v => v))
+  def unsafeStore[T](t: T, bucket: String, key: String, bucketType: String)
+                    (implicit format: JsonFormat[T]): Unit = {
+    rawStore(t, bucket, key, bucketType)
+  }
+
+  def store[T <: RiakObject](t: T) = {
+    val msg = RiakMessageBuilder.UnsafeStore(t, t.bucket, t.key, t.bucketType)
+  }
+
+  def rawStore[T](t: T, bucket: String, key: String, bucketType: String, vClock: ByteString = ByteString.EMPTY)
+                 (implicit format: JsonFormat[T]): Unit = {
+    val msg = RiakMessageBuilder.SafePut(t, bucket, key, bucketType, vClock)
     val req = buildRequest(RiakMessageType.RpbPutReq, msg)
-    req map { resp =>
-      RpbPutResp.parseFrom(resp.message) match {
-        case res: RpbPutResp =>
-          res.hasVclock
-        case _               => false
-      }
-    }
+    req map (x => x)
   }
 
   def safeUpdate[T](t: T, bucket: String, key: String, bucketType: String)
-                   (implicit format: JsonFormat[T]): Future[Boolean] = {
+                   (implicit format: JsonFormat[T]): Unit = {
     getVClock(bucket, key, bucketType) map {
       case Some(v) =>
-        store(t, bucket, key, bucketType, Some(v))
-        true
-      case None    => false
+        rawStore(t, bucket, key, bucketType, v)
+      case None    => throw new Exception
     }
   }
 

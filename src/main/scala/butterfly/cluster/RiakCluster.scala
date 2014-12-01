@@ -1,14 +1,6 @@
 package butterfly.cluster
 
-import java.util
-
-import akka.actor.ActorSystem
-import butterfly.RiakMessage
 import butterfly.core.RiakMessage
-import butterfly.requests.KVRequests
-
-import scala.collection.mutable.{ArrayBuffer, ListBuffer}
-import scala.concurrent.Future
 
 trait NodeManager {
   def init(nodes: List[RiakNode]): Unit
@@ -22,8 +14,4 @@ class DefaultNodeManager extends NodeManager {
   def executeOnNode(operation: RiakMessage => RiakMessage, previousNode: RiakNode): Unit = println("Executing")
   def addNote(node: RiakNode): Unit = println("Adding node")
   def removeNode(node: RiakNode): Boolean = true
-}
-
-trait NodeStateListener {
-  def nodeStateChanged(node: RiakNode, state: RiakNode.State)
 }

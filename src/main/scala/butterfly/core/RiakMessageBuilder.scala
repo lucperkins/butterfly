@@ -3,15 +3,15 @@ package butterfly.core
 import butterfly.requests.properties.FetchProperties
 import com.basho.riak.protobuf.RiakDtPB.{DtUpdateReq, DtFetchReq}
 import com.basho.riak.protobuf.RiakKvPB._
-import com.basho.riak.protobuf.RiakPB.RpbGetBucketReq
+import com.basho.riak.protobuf.RiakPB.{RpbGetBucketReq}
 import com.basho.riak.protobuf.RiakSearchPB.RpbSearchQueryReq
 import com.google.protobuf.ByteString
 import spray.json._
 
 object RiakMessageBuilder extends RiakConverter {
   def Get(bucket: String,
-                 key: String,
-                 bucketType: String): RpbGetReq = {
+          key: String,
+          bucketType: String): RpbGetReq = {
     val props = new FetchProperties()
 
     RpbGetReq.newBuilder
@@ -28,15 +28,16 @@ object RiakMessageBuilder extends RiakConverter {
       .build()
   }
 
-  def SafePut(value: String,
+  def SafePut[T](value: T,
                  bucket: String,
                  key: String,
                  bucketType: String,
-                 vClock: ByteString): RpbPutReq = {
+                 vClock: ByteString)
+                (implicit format: JsonWriter[T]): RpbPutReq = {
     val content = RpbContent.newBuilder
       .setContentType("application/json")
       .setCharset("utf-8")
-      .setValue(value)
+      .setValue(value.toJson.compactPrint)
       .build
 
     RpbPutReq.newBuilder
@@ -50,11 +51,11 @@ object RiakMessageBuilder extends RiakConverter {
   }
 
   def UnsafeStore[T](value: T,
-                      bucket: String,
-                      key: String,
-                      bucketType: String,
-                      vClock: Option[ByteString])
-                     (implicit format: JsonWriter[T]): RpbPutReq = {
+                     bucket: String,
+                     key: String,
+                     bucketType: String,
+                     vClock: ByteString = ByteString.EMPTY)
+                    (implicit format: JsonWriter[T]): RpbPutReq = {
     val content = RpbContent.newBuilder
       .setContentType("application/json")
       .setCharset("utf-8")
@@ -67,7 +68,7 @@ object RiakMessageBuilder extends RiakConverter {
       .setType(bucketType)
       .setReturnBody(true)
       .setContent(content)
-      .setVclock(vClock.getOrElse(ByteString.EMPTY))
+      .setVclock(vClock)
       .build()
   }
 

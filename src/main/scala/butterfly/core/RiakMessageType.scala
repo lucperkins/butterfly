@@ -5,6 +5,8 @@ sealed trait RiakMessageType
 object RiakMessageType {
   // Error
   case object RpbErrResp extends RiakMessageType
+  // Ping
+  case object RpbPingReq extends RiakMessageType
   // GET
   case object RpbGetReq extends RiakMessageType
   case object RpbGetResp extends RiakMessageType
@@ -33,6 +35,7 @@ object RiakMessageType {
 
   val values = Map(
     0 -> RpbErrResp,
+    1 -> RpbPingReq,
     9 -> RpbGetReq,
     10 -> RpbGetResp,
     11 -> RpbPutReq,

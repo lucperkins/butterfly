@@ -1,5 +1,8 @@
 package butterfly.core
 
+import akka.io.{PipePair, PipelineContext, PipelineStage}
+import akka.util.{ByteString, ByteStringBuilder}
+
 class RiakPipeline extends PipelineStage[PipelineContext, RiakMessage, ByteString, RiakMessage, ByteString]
    with RiakConverter {
 

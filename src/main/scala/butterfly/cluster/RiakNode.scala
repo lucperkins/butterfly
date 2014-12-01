@@ -1,27 +1,42 @@
 package butterfly.cluster
 
-import akka.actor.ActorSystem
+import akka.actor.{Actor, ActorSystem, Props}
 import butterfly.core.RiakWorker
-import butterfly.datatypes.DataTypeRequests
-import butterfly.requests.{KVRequests}
+import butterfly.requests.KVRequests
 
-case class RiakNode(host: String, port: Int)(implicit val system: ActorSystem)
-  extends KVRequests with DataTypeRequests {
+case class RiakClient(host: String, port: Int)
+                     (implicit val system: ActorSystem) extends KVRequests {
 
   val worker = RiakWorker(host, port)
   def disconnect() = system stop worker.actor
 }
 
-object RiakNode {
-  sealed trait State
+object NodeMessages {
+  case object Start
+  case object Stop
+}
 
-  object State {
-    case object RUNNING extends State
+object RiakNode {
+  implicit val system = ActorSystem("node-system")
+
+  def props(host: String, port: Int): Props =
+    Props(new RiakNode(host, port))
+}
+
+class RiakNode(host: String, port: Int)
+              (implicit system: ActorSystem) extends Actor {
+  import butterfly.cluster.NodeMessages._
+
+  val client = new RiakClient(host, port)
+
+  def preRestart(): Unit = {
 
   }
 
-  def apply(host: String, port: Int, connection: Int = 12)(implicit system: ActorSystem): RiakNode = {
-    val client = RiakNode(host, port)
-    client
+  def receive: Receive = {
+    case Start =>
+
+    case Stop =>
+      client.disconnect()
   }
 }

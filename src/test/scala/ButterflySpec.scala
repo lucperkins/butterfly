@@ -1,5 +1,5 @@
 import akka.actor.ActorSystem
-import butterfly.cluster.RiakNode
+import butterfly.cluster.{RiakClient, RiakNode}
 import butterfly.requests.SiblingResolver
 import org.scalatest.time.{Millis, Seconds, Span}
 import org.scalatest.{Suite, ShouldMatchers, WordSpec}
@@ -11,7 +11,7 @@ import scala.concurrent.duration._
 
 object Riak {
   implicit val system = ActorSystem("riak-test-system")
-  val node = RiakNode("localhost", 10017)
+  val node = RiakClient("localhost", 10017)
 }
 
 abstract class ButterflySpec extends WordSpec with Suite with ShouldMatchers with ScalaFutures {
@@ -37,13 +37,9 @@ class GenericResolver extends SiblingResolver[Generic] {
   }
 }
 
-object GenericResolver {
-  def apply = new GenericResolver()
-}
-
 class SiblingResolutionSpec extends ButterflySpec {
   implicit val jsonFormat = jsonFormat2(Generic)
-  implicit val resolver = GenericResolver
+  implicit val resolver = new GenericResolver()
 
   val g1 = new Generic("word", 999)
   val g2 = new Generic("longer word", 111)

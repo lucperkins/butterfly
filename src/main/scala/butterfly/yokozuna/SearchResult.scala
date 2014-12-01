@@ -71,13 +71,15 @@ trait SearchRequests extends RiakRequest with PolyRequests with RiakConverter {
     locList.toList
   }
 
+  /*
   def searchAndReturnObjects[T](index: String, query: String): Future[Option[List[T]]] = {
     search(index, query) map {
       case Some(result) =>
         val locations = resultToLocationsList(result)
-        getMany[T](locations) map (x => x)
+        getMany[T](locations)
       case None =>
         None
     }
   }
+  */
 }

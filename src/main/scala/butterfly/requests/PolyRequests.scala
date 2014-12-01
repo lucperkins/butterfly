@@ -1,13 +1,16 @@
 package butterfly.requests
 
+import spray.json.JsonFormat
+
 import scala.collection.mutable.ListBuffer
 
 import butterfly.core.RiakRequest
 import butterfly.yokozuna.Location
 
 trait PolyRequests extends RiakRequest with KVRequests {
+  /*
   def getMany[T](bucket: String, keys: List[String])
-                (implicit resolver: SiblingResolver[T]): List[T] = {
+                (implicit resolver: SiblingResolver[T], format: JsonFormat[T]): List[T] = {
     for {
       key <- keys
       obj <- get[T](bucket, key) map {
@@ -18,7 +21,7 @@ trait PolyRequests extends RiakRequest with KVRequests {
   }
 
   def getMany[T](locations: List[Location])
-                (implicit resolver: SiblingResolver[T]): List[T] = {
+                (implicit resolver: SiblingResolver[T], format: JsonFormat[T]): List[T] = {
     for {
       loc <- locations
       obj <- get[T](loc.bucket, loc.key, loc.bucketType) map {
@@ -27,4 +30,5 @@ trait PolyRequests extends RiakRequest with KVRequests {
       }
     } yield obj
   }
+  */
 }
