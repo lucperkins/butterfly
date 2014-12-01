@@ -6,16 +6,6 @@ import nl.gideondk.sentinel.Client
 
 import scala.concurrent.duration._
 
-
-
-
-
-
-
-
-
-
-
 class RiakWorker
 
 object RiakWorker extends RiakStages {

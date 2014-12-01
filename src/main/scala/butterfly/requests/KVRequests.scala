@@ -76,10 +76,6 @@ trait KVRequests extends RiakRequest with RiakConverter {
     rawStore(t, bucket, key, bucketType)
   }
 
-  def store[T <: RiakObject](t: T) = {
-    val msg = RiakMessageBuilder.UnsafeStore(t, t.bucket, t.key, t.bucketType)
-  }
-
   def rawStore[T](t: T, bucket: String, key: String, bucketType: String, vClock: ByteString = ByteString.EMPTY)
                  (implicit format: JsonFormat[T]): Unit = {
     val msg = RiakMessageBuilder.SafePut(t, bucket, key, bucketType, vClock)
